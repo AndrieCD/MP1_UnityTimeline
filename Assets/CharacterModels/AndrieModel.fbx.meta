@@ -122,7 +122,22 @@ ModelImporter:
     removeConstantScaleCurves: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'pasted__joint2' has translation animation
+      that will be discarded.\n\t'pasted__joint2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'pasted__joint10' has
+      translation animation that will be discarded.\n\t'pasted__joint10' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'pasted__joint23'
+      has translation animation that will be discarded.\n\t'pasted__joint23' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'pasted__joint3'
+      has translation animation that will be discarded.\n\t'pasted__joint3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'leftarm'
+      has translation animation that will be discarded.\n\t'pasted__joint13' has
+      translation animation that will be discarded.\n\t'pasted__joint14' has translation
+      animation that will be discarded.\n\t'rightarm' has translation animation that
+      will be discarded.\n\t'pasted__joint17' has translation animation that will
+      be discarded.\n\t'pasted__joint18' has translation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -134,7 +149,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 53
+      lastFrame: 71
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.96
     isReadable: 0
   meshes:
     lODScreenPercentages: []
