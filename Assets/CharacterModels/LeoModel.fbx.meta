@@ -278,15 +278,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: joint14
-      humanName: Neck
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: joint15
+    - boneName: ULOPOTO
       humanName: Head
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -294,7 +286,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: joint5
+    - boneName: joint13
       humanName: LeftShoulder
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -302,15 +294,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: joint19
-      humanName: RightShoulder
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: ULOPOTO
+    - boneName: joint14
       humanName: LeftUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -318,7 +302,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: joint20
+    - boneName: joint19
       humanName: RightUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -326,7 +310,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: joint31
+    - boneName: joint15
       humanName: LeftLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -334,7 +318,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: joint21
+    - boneName: joint20
       humanName: RightLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -342,7 +326,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: joint33
+    - boneName: joint16
       humanName: LeftHand
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -350,7 +334,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: joint22
+    - boneName: joint21
       humanName: RightHand
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -368,22 +352,6 @@ ModelImporter:
         modified: 0
     - boneName: joint29
       humanName: RightToes
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: joint16
-      humanName: LeftEye
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: joint18
-      humanName: Jaw
       limit:
         min: {x: 0, y: 0, z: 0}
         max: {x: 0, y: 0, z: 0}
