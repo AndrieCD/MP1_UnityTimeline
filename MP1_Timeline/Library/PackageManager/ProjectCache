@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639041484227208440
-    m_Hash: 299061381
+      ticks: 639041596528042180
+    m_Hash: 1952935473
   m_LockFileStatus:
     m_FilePath: C:/Users/Angel Fabregas/OneDrive/Documents/GitHub/MP1_UnityTimeline/MP1_Timeline/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639041484227298987
-    m_Hash: 4179776656
+      ticks: 639041596528246020
+    m_Hash: 2048146645
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

@@ -1,0 +1,1521 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.2f1 (a9779f353c9b) revision 11106207'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15481 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Angel Fabregas" at "2026-01-16T10:31:10.6778342Z"
+Date: 2026-01-16T10:31:10Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Angel Fabregas/OneDrive/Documents/GitHub/MP1_UnityTimeline/MP1_Timeline
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65159
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Angel Fabregas/OneDrive/Documents/GitHub/MP1_UnityTimeline/MP1_Timeline
+C:/Users/Angel Fabregas/OneDrive/Documents/GitHub/MP1_UnityTimeline/MP1_Timeline
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [4196]  Target information:
+
+Player connection [4196]  * "[IP] 169.254.36.205 [Port] 0 [Flags] 2 [Guid] 961799079 [EditorId] 961799079 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-CIMTUIDN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [4196]  * "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 961799079 [EditorId] 961799079 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-CIMTUIDN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [4196] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4196] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 5.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.2f1 (a9779f353c9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Angel Fabregas/OneDrive/Documents/GitHub/MP1_UnityTimeline/MP1_Timeline/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6607
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Angel Fabregas"
+[Licensing::IpcConnector] LicenseClient-Angel Fabregas channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Angel Fabregas-6000.3.2" at "2026-01-16T10:31:12.5058277Z"
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003237 seconds.
+- Loaded All Assemblies, in  0.878 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.916 seconds
+Domain Reload Profiling: 1790ms
+	BeginReloadAssembly (275ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (111ms)
+	LoadAllAssembliesAndSetupDomain (375ms)
+		LoadAssemblies (271ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (369ms)
+			TypeCache.Refresh (363ms)
+				TypeCache.ScanAssembly (330ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (917ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (816ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (85ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (188ms)
+			ProcessInitializeOnLoadAttributes (360ms)
+			ProcessInitializeOnLoadMethodAttributes (176ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              9a6004a42ae94cfcafb7e1ad9370fe71
+  Correlation Id:          355653e705c86e8413b9de96f91a15b7
+  External correlation Id: 3004448940419439657
+  Machine Id:              JnsXrjQuAgb7TSRJybmOeTvxJJs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Angel Fabregas-6000.3.2" (connect: 0.00s, validation: 0.00s, handshake: 2.33s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Angel Fabregas-6000.3.2-notifications" at "2026-01-16T10:31:14.8490295Z"
+[Licensing::Module] Licensing Background thread has ended after 4.17s
+[Licensing::Module] Licensing is initialized (took 0.34s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18967133968948-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.896 seconds
+Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.519 seconds
+Domain Reload Profiling: 3410ms
+	BeginReloadAssembly (710ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (988ms)
+		LoadAssemblies (749ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (451ms)
+			TypeCache.Refresh (356ms)
+				TypeCache.ScanAssembly (333ms)
+			BuildScriptInfoCaches (77ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1520ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1263ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (253ms)
+			ProcessInitializeOnLoadAttributes (897ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4006 unused Assets / (1.6 MB). Loaded Objects now: 4646.
+Memory consumption went from 112.8 MB to 111.2 MB.
+Total: 16.303200 ms (FindLiveObjects: 1.393300 ms CreateObjectMapping: 0.957300 ms MarkObjects: 11.400500 ms  DeleteObjects: 2.549300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 23706.027374 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Small Rock 3/Small Rock 3 RFS_DefaultMaterial_Normal.png
+  artifactKey: Guid(c59bd491cf0da4041ad4926d554ac155) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Small Rock 3/Small Rock 3 RFS_DefaultMaterial_Normal.png using Guid(c59bd491cf0da4041ad4926d554ac155) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fbfb896c9d07e4c6c271ef3eecc0102e') in 0.2825072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Models/Foliage 1.FBX
+  artifactKey: Guid(c99638a33bdcd1d4bb519b3e562bec0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Models/Foliage 1.FBX using Guid(c99638a33bdcd1d4bb519b3e562bec0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c7cf5225ce23d9b992b625406a4c2817') in 0.1296957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Models/Grass Patch Small.FBX
+  artifactKey: Guid(7fbab33f680881043bae557540efff3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Models/Grass Patch Small.FBX using Guid(7fbab33f680881043bae557540efff3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd8ecb4628a5d7144afba9a183e516706') in 0.0414118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 2/Dead Tree 2 RFS_Tree 1 Mat_Normal.png
+  artifactKey: Guid(a1337f04a0828ab4cbaa3af2423f0b82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 2/Dead Tree 2 RFS_Tree 1 Mat_Normal.png using Guid(a1337f04a0828ab4cbaa3af2423f0b82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2f96e8425f6fe6cda6c922bd18b2ab50') in 0.0410578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Foliage 1/Foliage 1_NRM.png
+  artifactKey: Guid(3773b973f5c0c314592c6665983da3ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Foliage 1/Foliage 1_NRM.png using Guid(3773b973f5c0c314592c6665983da3ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1168668b5aeea7ce6fc8bee920a6b12c') in 0.043407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 3/Dead Tree 3 RFS_Tree 1 Mat_AlbedoTransparency.png
+  artifactKey: Guid(47fe93e2a69ccd742a06f99fafd23dc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 3/Dead Tree 3 RFS_Tree 1 Mat_AlbedoTransparency.png using Guid(47fe93e2a69ccd742a06f99fafd23dc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f7e96ffdfe252d4b802eaf4c78ab8f08') in 0.0401611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Foliage 2
+  artifactKey: Guid(a171c686f1b9afb40a83ff23096adc47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Foliage 2 using Guid(a171c686f1b9afb40a83ff23096adc47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '231ffb57c1cd6bffa1d2092e24e3d564') in 0.0230783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 3/Ground 3_roughness.png
+  artifactKey: Guid(13b2b0801c994234ea2227029a9e3ed4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 3/Ground 3_roughness.png using Guid(13b2b0801c994234ea2227029a9e3ed4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9154540d9d89d56f74d718e453ae40b8') in 0.0397794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 2/Dead Tree 2 RFS_Tree 1 Mat_AlbedoTransparency.png
+  artifactKey: Guid(f81fea05d72361d44bdaeba00dace253) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 2/Dead Tree 2 RFS_Tree 1 Mat_AlbedoTransparency.png using Guid(f81fea05d72361d44bdaeba00dace253) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e08e46f5e78abade6ebbf6e18db219ec') in 0.0343463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Large Rock 2
+  artifactKey: Guid(3587abbaa2535e74093e697ed10ed3f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Large Rock 2 using Guid(3587abbaa2535e74093e697ed10ed3f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c80238e8e5f9f33f83c9ab85c6da8e8') in 0.0239464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Tree 3
+  artifactKey: Guid(45290fffac8369d4e992707f79a16ae9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Tree 3 using Guid(45290fffac8369d4e992707f79a16ae9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '712a5ab73820cda3bba42c501384ee6b') in 0.0283509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Small Rock 3/Small Rock 3 RFS_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(bcb39851709d6564eac038296b15a386) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Small Rock 3/Small Rock 3 RFS_DefaultMaterial_MetallicSmoothness.png using Guid(bcb39851709d6564eac038296b15a386) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9f92ed1af2629b583f61b710e5782bc6') in 0.0384175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials
+  artifactKey: Guid(fd244097e34e65641905920ddbb5b06d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials using Guid(fd244097e34e65641905920ddbb5b06d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5e84f276ea341847a1f69aa5f09466b') in 0.0207381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Prefabs/Small Rock 1.prefab
+  artifactKey: Guid(375204e43ad118e4bbc83b27192e3946) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Prefabs/Small Rock 1.prefab using Guid(375204e43ad118e4bbc83b27192e3946) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c00106cb1d1f3e8c504b809b553ec45d') in 0.0360242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 1/Tree 1 RFS_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(cb71793383bb2754c955cceeb16d9840) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 1/Tree 1 RFS_DefaultMaterial_MetallicSmoothness.png using Guid(cb71793383bb2754c955cceeb16d9840) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '512ad36052f0500d65b513cf6130dc55') in 0.041299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Tree 3/Tree 3 Branches.mat
+  artifactKey: Guid(ce001724e9d21084084ee3c8f12c0a5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Tree 3/Tree 3 Branches.mat using Guid(ce001724e9d21084084ee3c8f12c0a5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe7494199c63316a3c68311788edc1ab') in 0.0518938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Prefabs/Tree 1.prefab
+  artifactKey: Guid(81c7dd4128008d84fbd14127f8cdc039) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Prefabs/Tree 1.prefab using Guid(81c7dd4128008d84fbd14127f8cdc039) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4d7aaf2ed7e7ba564754eacf0240880') in 0.0345556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Foliage 2
+  artifactKey: Guid(4ebd436a1b49b7649964f0376b150468) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Foliage 2 using Guid(4ebd436a1b49b7649964f0376b150468) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e520850ef0f5f4fc2e1db63dd22e35e2') in 0.0229735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Large Rock 2/Large Rock 2 RFS_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(40f9da92ac1a5df419796b5e23494600) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Large Rock 2/Large Rock 2 RFS_DefaultMaterial_AlbedoTransparency.png using Guid(40f9da92ac1a5df419796b5e23494600) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3784f0323cb15cab4c7b438f894a335f') in 0.0347862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Terrain Materials/Grass 3.terrainlayer
+  artifactKey: Guid(d7e90793c90db084f86209132eaca03b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Terrain Materials/Grass 3.terrainlayer using Guid(d7e90793c90db084f86209132eaca03b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4debd28a5c1661239902372ad14960d9') in 0.0433703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Prefabs/Foliage 2.prefab
+  artifactKey: Guid(48877448f3a5a7b42956199437be7a1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Prefabs/Foliage 2.prefab using Guid(48877448f3a5a7b42956199437be7a1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd78512243e3bf02460b7e333d60c6398') in 0.0325295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Shaders/DoubleSided.shader
+  artifactKey: Guid(92f60417f0f33e9428efe6ede4fb222b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Shaders/DoubleSided.shader using Guid(92f60417f0f33e9428efe6ede4fb222b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a504c294319de72141daa52a42ce1c6c') in 0.0376201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Models/Large Rock 2.FBX
+  artifactKey: Guid(7e5d03776b0f987408a89f8e9e9252f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Models/Large Rock 2.FBX using Guid(7e5d03776b0f987408a89f8e9e9252f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '909b6cfb8d80d361f33aba63863f24ff') in 0.0412529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 1/Grass 1_height.png
+  artifactKey: Guid(4012e2e59c1ad174caeadcc30fddfa04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 1/Grass 1_height.png using Guid(4012e2e59c1ad174caeadcc30fddfa04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a0dbb937fa39e7d7b86c145b126f4db3') in 0.0352152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Large Rock 2/Large Rock 2 RFS_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(0b153f377902c06448bcdf02a1e598ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Large Rock 2/Large Rock 2 RFS_DefaultMaterial_MetallicSmoothness.png using Guid(0b153f377902c06448bcdf02a1e598ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '87cc159170831892ae69a58df1fb8cc7') in 0.0416374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Rock Group
+  artifactKey: Guid(795000e340b875a4383f8616393c963d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Rock Group using Guid(795000e340b875a4383f8616393c963d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0cbfad35bb17a845c3a3ddd717f32741') in 0.0248111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 2/Dead Tree 2 RFS_Tree 1 Mat_MetallicSmoothness.png
+  artifactKey: Guid(a5776df05c721f44e92017f62872f53d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 2/Dead Tree 2 RFS_Tree 1 Mat_MetallicSmoothness.png using Guid(a5776df05c721f44e92017f62872f53d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7debc35c31ae7defe15464df8f513931') in 0.0456126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Small Rock 4/Small Rock 4 Moss RFS_DefaultMaterial_Normal.png
+  artifactKey: Guid(5df403a7d9842aa45bc482920b3c97af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Small Rock 4/Small Rock 4 Moss RFS_DefaultMaterial_Normal.png using Guid(5df403a7d9842aa45bc482920b3c97af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c96de0d34913f2a6fdc7a7b761943eca') in 0.0336136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Scenes
+  artifactKey: Guid(bf2d7754f82b02649bfcf41c257078cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Scenes using Guid(bf2d7754f82b02649bfcf41c257078cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '20d239879c0f0b67bef02597626de722') in 0.0217517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 1
+  artifactKey: Guid(1cf65fc676ac48b4791a64ce628a7294) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 1 using Guid(1cf65fc676ac48b4791a64ce628a7294) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0903661638743469718c228afc0980be') in 0.0275423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Prefabs/Large Rock 2.prefab
+  artifactKey: Guid(e5c358a373d2fa840a2b94c42d8966af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Prefabs/Large Rock 2.prefab using Guid(e5c358a373d2fa840a2b94c42d8966af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5f881fec7ea20d5c27ac9bed8a5c752') in 0.0478884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Shaders
+  artifactKey: Guid(8168c3529b96c944383558220de93d3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Shaders using Guid(8168c3529b96c944383558220de93d3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d27478e38df53ba3701964bd8466eca') in 0.0223818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 2/Ground 2_height.png
+  artifactKey: Guid(f626cc4896a60594b8f7d8d6606b0f6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 2/Ground 2_height.png using Guid(f626cc4896a60594b8f7d8d6606b0f6a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4df1f94d5bae075469cb9011bea719c') in 0.0345134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Prefabs/Foliage 1.prefab
+  artifactKey: Guid(dfd4a7a5dfb2d0f418db69b31fed990f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Prefabs/Foliage 1.prefab using Guid(dfd4a7a5dfb2d0f418db69b31fed990f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '08c6d2235aef9c6f5111dcdf7a1788ee') in 0.0379634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Foliage 3/Foliage 3_NRM.png
+  artifactKey: Guid(afe58e99c030bed47ad932b1df8a35e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Foliage 3/Foliage 3_NRM.png using Guid(afe58e99c030bed47ad932b1df8a35e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd0b2c8fb2cb7ab42ebcb0fa42ae000b8') in 0.0380219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Prefabs/Small Rock 4.prefab
+  artifactKey: Guid(84d3236b8e04fd042b4f2e14744e2af7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Prefabs/Small Rock 4.prefab using Guid(84d3236b8e04fd042b4f2e14744e2af7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa6449a5e89b4f410357a0f5a37ba1d8') in 0.0341188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Shaders/How to set up.docx
+  artifactKey: Guid(5107d1da43e8b4f45a7c797600934444) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Shaders/How to set up.docx using Guid(5107d1da43e8b4f45a7c797600934444) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5ee842fa81a275d9ee8602bf2e1a643') in 0.031159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 1/Tree 1 RFS_DefaultMaterial_Normal.png
+  artifactKey: Guid(0930a3da78b5cbd428169d021d4f9d26) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 1/Tree 1 RFS_DefaultMaterial_Normal.png using Guid(0930a3da78b5cbd428169d021d4f9d26) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '619f9082b6cd41b55de7e935648926e8') in 0.0412411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Large Rock 1/Large Rock 1 RFS_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(5745d7ca50f6acd42be15319175bdea4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Large Rock 1/Large Rock 1 RFS_DefaultMaterial_AlbedoTransparency.png using Guid(5745d7ca50f6acd42be15319175bdea4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5fb884c5074bdafc7fa629062d47af2a') in 0.0406353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Rocks 1/Ground 4_height.png
+  artifactKey: Guid(858a18f828217cf4bb133d2361849585) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Rocks 1/Ground 4_height.png using Guid(858a18f828217cf4bb133d2361849585) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e17b3d56a440a919719039794b4f05d') in 0.0402795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Models/Rock Group.FBX
+  artifactKey: Guid(8c9ba8b971bfa054a9cef1dc5125056b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Models/Rock Group.FBX using Guid(8c9ba8b971bfa054a9cef1dc5125056b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b6fcae686cbee2db2d30b0fc0fe22b1a') in 0.0411799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Small Rock 4
+  artifactKey: Guid(b6583b1ebff8ace4d814bbe8fe71e4cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Small Rock 4 using Guid(b6583b1ebff8ace4d814bbe8fe71e4cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22d07894b98925c8bfa2148fe36fd77e') in 0.0261328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 1
+  artifactKey: Guid(b1a083e534572724fafbf305f253c964) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 1 using Guid(b1a083e534572724fafbf305f253c964) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '864f70f71af4f673c00a463020401a96') in 0.0311663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Tree 2/Tree 2 Mat.mat
+  artifactKey: Guid(8df13e90dd57318489f9b393316f55d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Tree 2/Tree 2 Mat.mat using Guid(8df13e90dd57318489f9b393316f55d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ceb7fbc7309e6fe8c47c43f68c861212') in 0.0441441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Small Rock 2/Small Rock 2 RFS_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(4497f3f2ffe19cc489a7bff07c613a91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Small Rock 2/Small Rock 2 RFS_DefaultMaterial_MetallicSmoothness.png using Guid(4497f3f2ffe19cc489a7bff07c613a91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4277c653497ba457d76e80a21ab6b905') in 0.0475205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Foliage 2/Foliage 2_NRM.png
+  artifactKey: Guid(1a1ea9e1c808b114bbae01568205646c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Foliage 2/Foliage 2_NRM.png using Guid(1a1ea9e1c808b114bbae01568205646c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '64a900073bc14ffc6b994f85a513f180') in 0.0507265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 3/Ground 3_normal.png
+  artifactKey: Guid(fc1e3afe71174d7469277ce97cfb6848) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 3/Ground 3_normal.png using Guid(fc1e3afe71174d7469277ce97cfb6848) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a5beb53bcc47364201114d6da756e72f') in 0.0469775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Small Rock 4/Small Rock 4 RFS_DefaultMaterial_Normal.png
+  artifactKey: Guid(7d88d4dfdc236554d9b11bf281901f31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Small Rock 4/Small Rock 4 RFS_DefaultMaterial_Normal.png using Guid(7d88d4dfdc236554d9b11bf281901f31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '46edaa779b9438a4ad6f36a412aefdeb') in 0.0453899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 1/Tree 1 Branchs_NRM.png
+  artifactKey: Guid(59982beff7917804588c5a0075ce02c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 1/Tree 1 Branchs_NRM.png using Guid(59982beff7917804588c5a0075ce02c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e683af727a5d7830a424ee5f8b2abe9') in 0.043444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Small Rock 4 Moss/Small Rock 4 Moss.mat
+  artifactKey: Guid(442fa6ed07e500444a0961b0930713a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Small Rock 4 Moss/Small Rock 4 Moss.mat using Guid(442fa6ed07e500444a0961b0930713a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4bef6379a12bb1968a20f026caccd5db') in 0.0621929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 2/Ground 2_metallic.png
+  artifactKey: Guid(b191a1bfb7dabda46b42c0b913db4af8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 2/Ground 2_metallic.png using Guid(b191a1bfb7dabda46b42c0b913db4af8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f59e9cf2d399614bc8abea504cbef78a') in 0.0439844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Small Rock 4/Small Rock 4 Moss RFS_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(2c4de51c7b836294ebb41e123dfa7858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Small Rock 4/Small Rock 4 Moss RFS_DefaultMaterial_AlbedoTransparency.png using Guid(2c4de51c7b836294ebb41e123dfa7858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '996efdda131ae76e793bf1d659a81edc') in 0.0395674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Tree 4/Tree 4 Mat.mat
+  artifactKey: Guid(4c22b5debf7e9384987ca56dd4e8a52e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Tree 4/Tree 4 Mat.mat using Guid(4c22b5debf7e9384987ca56dd4e8a52e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6713011f249306408bdbfaf676ab336c') in 0.1751438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Tree 1/Tree 1 Branches.mat
+  artifactKey: Guid(478e546c94611a74099c0fa6e5202431) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Tree 1/Tree 1 Branches.mat using Guid(478e546c94611a74099c0fa6e5202431) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a48a5374811c0c54d2e1bc2b0328d5b') in 0.0407628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Rocks 1/Ground 4_metallic.png
+  artifactKey: Guid(7c27682cc391e434686ded8ca47ddf40) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Rocks 1/Ground 4_metallic.png using Guid(7c27682cc391e434686ded8ca47ddf40) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '00cb8fa23b5805eb0f80756a7d9b10c3') in 0.043673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 4/Dead Tree 4 RFS_Tree 2 Mat_MetallicSmoothness.png
+  artifactKey: Guid(0aa75cec7b722b14a8479c7596a5b05f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 4/Dead Tree 4 RFS_Tree 2 Mat_MetallicSmoothness.png using Guid(0aa75cec7b722b14a8479c7596a5b05f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4053035cbba818f847533ca6dbebf1ef') in 0.0366546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Small Rock 1/Small Rock 1 RFS_DefaultMaterial_Normal.png
+  artifactKey: Guid(1d4d9dceb188793439ed91629b101b66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Small Rock 1/Small Rock 1 RFS_DefaultMaterial_Normal.png using Guid(1d4d9dceb188793439ed91629b101b66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c6ae36741b016cb188f1adf0ab807d6d') in 0.0369396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Prefabs
+  artifactKey: Guid(3ec6222f5337b994ead4cef79aa0e3ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Prefabs using Guid(3ec6222f5337b994ead4cef79aa0e3ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0fb132daa8c04a602e716711aa0d5756') in 0.0229986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 3/Ground 3_ambientOcclusion.png
+  artifactKey: Guid(e7f4ec2160ef0ff48bfa68008ca607b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 3/Ground 3_ambientOcclusion.png using Guid(e7f4ec2160ef0ff48bfa68008ca607b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a28f6503bc116b48a3906e645259e7b') in 0.0301097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Tree 1/Tree 1 Mat.mat
+  artifactKey: Guid(cb1223280cfac854184017065d85e17e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Tree 1/Tree 1 Mat.mat using Guid(cb1223280cfac854184017065d85e17e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea071c1c349ee85e5af2155b546aa2b2') in 0.0316556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Scenes/ForestExample.unity
+  artifactKey: Guid(e0b0c202f0e294148938f0d777182238) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Scenes/ForestExample.unity using Guid(e0b0c202f0e294148938f0d777182238) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2212b0daffd325786aff4dc30aa0f967') in 0.0329717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Ground Materials/Rock Floor 1.mat
+  artifactKey: Guid(dba1b385d51554b4f9372291b6d45c00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Ground Materials/Rock Floor 1.mat using Guid(dba1b385d51554b4f9372291b6d45c00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '50c0b7e2836b6ee6e8c0f38a25df50b7') in 0.0551041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Ground Materials/Grass Floor 2.mat
+  artifactKey: Guid(d0c86399931d65c40ae1b437d71e557d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Ground Materials/Grass Floor 2.mat using Guid(d0c86399931d65c40ae1b437d71e557d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '714e5e9f907bdb9d922fc72dff5002d0') in 0.044226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Models/Foliage 3.FBX
+  artifactKey: Guid(88aa96a7b6d9c914fa4929b0c32c44cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Models/Foliage 3.FBX using Guid(88aa96a7b6d9c914fa4929b0c32c44cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '96884472c2a761bbfedd660a30fd3b05') in 0.0408205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 4
+  artifactKey: Guid(9acfd345626cf73469a060f1426e2086) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 4 using Guid(9acfd345626cf73469a060f1426e2086) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '731b7690b679b96a227efe04d616769f') in 0.0222434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Small Rock 4/Small Rock 4 Moss RFS_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(4a165b73459394740952d9703dfa484e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Small Rock 4/Small Rock 4 Moss RFS_DefaultMaterial_MetallicSmoothness.png using Guid(4a165b73459394740952d9703dfa484e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce2d626ec731708e0ef5c76c3d58a72f') in 0.0329424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Rocks 1/Ground 4_ambientOcclusion.png
+  artifactKey: Guid(44ac7aaeb416ff447a0703cf658f3f8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Rocks 1/Ground 4_ambientOcclusion.png using Guid(44ac7aaeb416ff447a0703cf658f3f8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94fd9e0180d332b75e0f10fe5a4a010d') in 0.034434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 1/Grass 1_ambientOcclusion.png
+  artifactKey: Guid(db806c2348bf0404cb2de178f8d6c598) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 1/Grass 1_ambientOcclusion.png using Guid(db806c2348bf0404cb2de178f8d6c598) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '809145cc0cc74336846d5ab73ff1db9d') in 0.0318855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Small Rock 2/Small Rock 2.mat
+  artifactKey: Guid(dabe54f6d7a618b46b47a20a94dac76c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Small Rock 2/Small Rock 2.mat using Guid(dabe54f6d7a618b46b47a20a94dac76c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe082106452c2e8c0d4610bef86f6d1f') in 0.0394981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 3/Ground 3_metallic.png
+  artifactKey: Guid(24afc57870190e74fb521951f400ae00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 3/Ground 3_metallic.png using Guid(24afc57870190e74fb521951f400ae00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '64a365aacc4ce02f38e5af45e69a5aee') in 0.0340388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Grass
+  artifactKey: Guid(051271c45c29fed4db47e2d703636ca9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Grass using Guid(051271c45c29fed4db47e2d703636ca9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19fdf42f064d32a451fdd34cf0c9db07') in 0.0262132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001125 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Models/Tree 1.FBX
+  artifactKey: Guid(fc64fc23d15a9cd43a59d4ba5fcc1735) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Models/Tree 1.FBX using Guid(fc64fc23d15a9cd43a59d4ba5fcc1735) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cca34441c870e21ea93812544cb23bfb') in 0.0508943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures
+  artifactKey: Guid(62a09d9a0bfccce43a2b778bbfa24408) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures using Guid(62a09d9a0bfccce43a2b778bbfa24408) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b084ae4e873510f23f8fc5210ec4de1') in 0.0244167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 2/Tree 2 Branchs.png
+  artifactKey: Guid(a5397fe1d5927814e8725cb1e586c9d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 2/Tree 2 Branchs.png using Guid(a5397fe1d5927814e8725cb1e586c9d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '34eff3d3e244961d9da3f78d6cac4976') in 0.035337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Small Rock 4/Small Rock 4 RFS_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(f03b36756b0c8b64082ceeab896b646e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Small Rock 4/Small Rock 4 RFS_DefaultMaterial_AlbedoTransparency.png using Guid(f03b36756b0c8b64082ceeab896b646e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc38693b6035149c7fc5781fe55e87a9') in 0.0330985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Small Rock 1/Small Rock 1.mat
+  artifactKey: Guid(24a6fdb2038ae104b86c29cbf9e524b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Small Rock 1/Small Rock 1.mat using Guid(24a6fdb2038ae104b86c29cbf9e524b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f8f479425831bf82663a8438370fcb4') in 0.0379484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Rocks 2/Ground 5_ambientOcclusion.png
+  artifactKey: Guid(2861b8589d42f784eb829e64f501dc6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Rocks 2/Ground 5_ambientOcclusion.png using Guid(2861b8589d42f784eb829e64f501dc6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '244e58561f093e604046365211b1e6a5') in 0.0331034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Rocks 2/Ground 5_height.png
+  artifactKey: Guid(99132c117151deb458ce3d2ac884a717) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Rocks 2/Ground 5_height.png using Guid(99132c117151deb458ce3d2ac884a717) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d97265bff357546650e1db3310a8019') in 0.0372122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Terrain Materials/Grass 2.terrainlayer
+  artifactKey: Guid(5468b1d74800fce42841a39f5c42dbe1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Terrain Materials/Grass 2.terrainlayer using Guid(5468b1d74800fce42841a39f5c42dbe1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7814e7e1823bef46d88ec9feb1419752') in 0.0364779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Terrain Materials/Rock Floor 1.terrainlayer
+  artifactKey: Guid(e3baa8a7616a7fe4883e2ffd1b175218) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Terrain Materials/Rock Floor 1.terrainlayer using Guid(e3baa8a7616a7fe4883e2ffd1b175218) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf58ad498395e0cec868b2bbbabf7fdc') in 0.0342439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Prefabs/Grass Patch Small.prefab
+  artifactKey: Guid(975ca1de1ebfe964491f7f9df16a60be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Prefabs/Grass Patch Small.prefab using Guid(975ca1de1ebfe964491f7f9df16a60be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0f8a4c8c797d7e96164f3c0b7cf41c62') in 0.0370563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Rocks 2/Ground 5_baseColor.png
+  artifactKey: Guid(62553132f98806e408de17af05444582) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Rocks 2/Ground 5_baseColor.png using Guid(62553132f98806e408de17af05444582) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43689268a38f19e2d288bd4082a86957') in 0.0341494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Large Rock 1/Large Rock 1 RFS_DefaultMaterial_Normal.png
+  artifactKey: Guid(a9ceffc35e8241c43aa173d1ebceceed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Large Rock 1/Large Rock 1 RFS_DefaultMaterial_Normal.png using Guid(a9ceffc35e8241c43aa173d1ebceceed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '69e4f8cbdfa55fd276e730cbb893984c') in 0.036272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 1/Grass 1_baseColor.png
+  artifactKey: Guid(dbffa3668a6c593468dda50b46af8020) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 1/Grass 1_baseColor.png using Guid(dbffa3668a6c593468dda50b46af8020) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'efb60f92ea127e4e42cd938f7b6e72da') in 0.0325269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 2
+  artifactKey: Guid(6feedacfef769fe4bb0808391eec5d0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 2 using Guid(6feedacfef769fe4bb0808391eec5d0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '779316e3eea4b39161587c6faee3ae24') in 0.0287246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Small Rock 2/Small Rock 2 RFS_DefaultMaterial_Normal.png
+  artifactKey: Guid(e3653655f7cd0c84c80a6a23fc08b472) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Small Rock 2/Small Rock 2 RFS_DefaultMaterial_Normal.png using Guid(e3653655f7cd0c84c80a6a23fc08b472) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5996f3d2dffe51bfbbbdfcf4eca9c144') in 0.0418122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 3/Ground 3_baseColor.png
+  artifactKey: Guid(6e03ea39781e7b44fb4fb80363b2678f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Ground Grass 3/Ground 3_baseColor.png using Guid(6e03ea39781e7b44fb4fb80363b2678f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e934d8cb2ed340d2ea2a76b169f09dd') in 0.0367099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Foliage 1/Foliage 1.mat
+  artifactKey: Guid(84aa5f7be4f6cad4e960fe90a5245135) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Foliage 1/Foliage 1.mat using Guid(84aa5f7be4f6cad4e960fe90a5245135) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0f57c48051886a23b3c985081ebbc617') in 0.0383867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Foliage 1
+  artifactKey: Guid(4793b148a032b2d4ba32465e284c475e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Foliage 1 using Guid(4793b148a032b2d4ba32465e284c475e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '165d2a654d34718eea193ed7921c5d0b') in 0.0248951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Grass
+  artifactKey: Guid(451857eb25487644f919773f2c216de0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Grass using Guid(451857eb25487644f919773f2c216de0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c67ea44ee3f21bb9276b0512390eb9b1') in 0.0266608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Grass/Grass Large.mat
+  artifactKey: Guid(b437e50723bca344897eccf88a4f74ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Grass/Grass Large.mat using Guid(b437e50723bca344897eccf88a4f74ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e971be989a87e60b38a2ea9ce8c77d92') in 0.0350158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 2/Tree 2 Branchs_NRM.png
+  artifactKey: Guid(953ad2c5d4dcc4b4887fdcc3110af65a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 2/Tree 2 Branchs_NRM.png using Guid(953ad2c5d4dcc4b4887fdcc3110af65a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e85234c0f9a711027bb7b2b369d7f35') in 0.0379894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Models/Small Rock 3.FBX
+  artifactKey: Guid(dcb7c5186204b6542b6655eae66b7e72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Models/Small Rock 3.FBX using Guid(dcb7c5186204b6542b6655eae66b7e72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd8915f33060215d4bf2db8e4247e1e74') in 0.0351215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Rock Group
+  artifactKey: Guid(bb720043e39bce146a7f809de18a4cf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Rock Group using Guid(bb720043e39bce146a7f809de18a4cf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77b27f435775ebfd6d2c907febdcae4d') in 0.0239565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Small Rock 3
+  artifactKey: Guid(cc5a39b5c9d68004eaa7dd3895bc6585) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Small Rock 3 using Guid(cc5a39b5c9d68004eaa7dd3895bc6585) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '417456a30351a408dac859e5b4fea7ee') in 0.0281256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Small Rock 3/Small Rock 3.mat
+  artifactKey: Guid(376ea5618bbbf2c4d93a2b50a770d9ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Small Rock 3/Small Rock 3.mat using Guid(376ea5618bbbf2c4d93a2b50a770d9ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2df78a69524d39c00c6d1237db1ac97f') in 0.0390246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 4/Tree 4 Branchs.png
+  artifactKey: Guid(4af512830e4f214418b08610641c1659) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Textures/Tree 4/Tree 4 Branchs.png using Guid(4af512830e4f214418b08610641c1659) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd84ed92919255a844fcb40d0ad44b61c') in 0.0348544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.069113 seconds.
+  path: Assets/AssetStore
+  artifactKey: Guid(c6a1ba34231933f4188e7532622deec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore using Guid(c6a1ba34231933f4188e7532622deec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '808f210a2f3224e6abb990be54d5d3d7') in 0.0018726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.190931 seconds.
+  path: Assets/AssetStore/Floor Base
+  artifactKey: Guid(a2740e978af6a8e41a4821e5cec57e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Floor Base using Guid(a2740e978af6a8e41a4821e5cec57e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a4bc1f293d2f99bcf337d0ccef198a9') in 0.0011756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.943161 seconds.
+  path: Assets/AssetStore/Floor Base
+  artifactKey: Guid(a2740e978af6a8e41a4821e5cec57e91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/Floor Base using Guid(a2740e978af6a8e41a4821e5cec57e91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '44bb59ed2c9a2f01eeb1a4d688fd2e35') in 0.0531254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.841027 seconds.
+  path: Assets/AssetStore/Floor Base/Floor Base.fbx
+  artifactKey: Guid(91423a10bbab9f4479e1b364d3e16d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Floor Base/Floor Base.fbx using Guid(91423a10bbab9f4479e1b364d3e16d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19e89e6f9700cc0b536678cc0c88ee97') in 0.3721059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.531479 seconds.
+  path: Assets/AssetStore/Floor Base/Floor Base.fbm/Floor_Base_Roughness.png
+  artifactKey: Guid(30c6416e59d199e4a9cf568db1743a08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/Floor Base/Floor Base.fbm/Floor_Base_Roughness.png using Guid(30c6416e59d199e4a9cf568db1743a08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '24365a8afe60643e654150f644436fde') in 0.0745667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AssetStore/Floor Base/Floor Base.fbm/Floor_Base_BaseColor.png
+  artifactKey: Guid(c46b645ebfcf5d44b934b8efcd3b1840) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/Floor Base/Floor Base.fbm/Floor_Base_BaseColor.png using Guid(c46b645ebfcf5d44b934b8efcd3b1840) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f71ace3c4ef7086b2888f68e01ed8374') in 0.0400418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.669019 seconds.
+  path: Assets/AssetStore/Floor Base/Floor Base.fbm
+  artifactKey: Guid(56f68db717bfebc4f851145537ff0677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Floor Base/Floor Base.fbm using Guid(56f68db717bfebc4f851145537ff0677) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61132426f55a26e21330d1b364505a7f') in 0.0010849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.645496 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(8bbf981261a59b140a93547cef47b551) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene.unity using Guid(8bbf981261a59b140a93547cef47b551) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '524e083e8ced1b984202ee5c5ae8cdca') in 0.0821636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.727070 seconds.
+  path: Assets/AssetStore/NightSkyHDRI014_2K_HDR.exr
+  artifactKey: Guid(4cbe7ea7ec279d6448533fdc0f433a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/NightSkyHDRI014_2K_HDR.exr using Guid(4cbe7ea7ec279d6448533fdc0f433a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b410fa528602eb10e729f83c6a251500') in 0.3249356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.376141 seconds.
+  path: Assets/AssetStore/NightSkyHDRI014_2K_HDR.exr
+  artifactKey: Guid(4cbe7ea7ec279d6448533fdc0f433a2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/NightSkyHDRI014_2K_HDR.exr using Guid(4cbe7ea7ec279d6448533fdc0f433a2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd501c6654b850978b1b8864feef3fd9d') in 0.0406192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.388693 seconds.
+  path: Assets/AssetStore/NighSky.mat
+  artifactKey: Guid(4623f39084f7bdc489ac663c09b72c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/NighSky.mat using Guid(4623f39084f7bdc489ac663c09b72c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4f4f35efb6368a74ad67fa19605a03e') in 0.0766255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.858912 seconds.
+  path: Assets/AssetStore/NighSky.mat
+  artifactKey: Guid(4623f39084f7bdc489ac663c09b72c5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/NighSky.mat using Guid(4623f39084f7bdc489ac663c09b72c5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f17738af4aa52c078c5484adb7be8f4f') in 0.0691734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.534168 seconds.
+  path: Assets/AssetStore/ALP_Assets/country house01/DemoScene/DemoScene/ReflectionProbe-0.exr
+  artifactKey: Guid(5a4a099b2251741468a9d94902eac27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/ALP_Assets/country house01/DemoScene/DemoScene/ReflectionProbe-0.exr using Guid(5a4a099b2251741468a9d94902eac27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe15983f8307168d8ca7c15ac0083eb8') in 0.0623167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.607371 seconds.
+  path: Assets/AssetStore/NightSkyHDRI014_2K_HDR 1.exr
+  artifactKey: Guid(8f68e46138644d44a8810bbfa1d4f4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/NightSkyHDRI014_2K_HDR 1.exr using Guid(8f68e46138644d44a8810bbfa1d4f4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca93fdd6748d3fe30ef6e49d402e67da') in 0.0346841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.030697 seconds.
+  path: Assets/AssetStore/NightSkyHDRI014_2K_HDR 1.exr
+  artifactKey: Guid(8f68e46138644d44a8810bbfa1d4f4f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/NightSkyHDRI014_2K_HDR 1.exr using Guid(8f68e46138644d44a8810bbfa1d4f4f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc806fcc5e1d63593d0fa94f9fea9c2c') in 0.0686594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.059798 seconds.
+  path: Assets/AssetStore/ALP_Assets/country house01/Materials/BakeMat.mat
+  artifactKey: Guid(33279a08e1059534c9b5e0e9ab23ea97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/ALP_Assets/country house01/Materials/BakeMat.mat using Guid(33279a08e1059534c9b5e0e9ab23ea97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6af6c57f78f06df9125fdd0d60869734') in 0.0692816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Models/Foliage 3.FBX
+  artifactKey: Guid(88aa96a7b6d9c914fa4929b0c32c44cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Models/Foliage 3.FBX using Guid(88aa96a7b6d9c914fa4929b0c32c44cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9674ef872709e44213ac16b8480ab23f') in 0.090982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Ground Materials/Grass Floor 3.mat
+  artifactKey: Guid(d962ce535805c5a4cb27ee3888bb17af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Ground Materials/Grass Floor 3.mat using Guid(d962ce535805c5a4cb27ee3888bb17af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e30f9af6b48173c7011103e7305a884') in 0.0670493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AssetStore/ALP_Assets/country house01/Materials/Glass.mat
+  artifactKey: Guid(d73f092e661a4de4d8ad8c54a457ccd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/ALP_Assets/country house01/Materials/Glass.mat using Guid(d73f092e661a4de4d8ad8c54a457ccd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99490349c857827eb5b9d02466a4159f') in 0.0636593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Models/Large Rock 1.FBX
+  artifactKey: Guid(33bfff9c871cd694f8602aff8bc06f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Models/Large Rock 1.FBX using Guid(33bfff9c871cd694f8602aff8bc06f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '189b0e087606c783cc572f822bf47fb8') in 0.0424249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Ground Materials/Grass Floor 1.mat
+  artifactKey: Guid(bc7542fa398d07c40a1a88ff877c9ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Ground Materials/Grass Floor 1.mat using Guid(bc7542fa398d07c40a1a88ff877c9ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eca1566259811e60e26d4d32aba173f9') in 0.0553247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Small Rock 3/Small Rock 3.mat
+  artifactKey: Guid(376ea5618bbbf2c4d93a2b50a770d9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Small Rock 3/Small Rock 3.mat using Guid(376ea5618bbbf2c4d93a2b50a770d9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d956b5cf9aaa31fb0be127988942716') in 0.0538214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Grass/Grass Large.mat
+  artifactKey: Guid(b437e50723bca344897eccf88a4f74ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Grass/Grass Large.mat using Guid(b437e50723bca344897eccf88a4f74ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5766b569b1a19584518d5227074c523') in 0.0713284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Models/Rock Group.FBX
+  artifactKey: Guid(8c9ba8b971bfa054a9cef1dc5125056b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Models/Rock Group.FBX using Guid(8c9ba8b971bfa054a9cef1dc5125056b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae8a75b7deb1d0c73a697a8e8647edad') in 0.0596606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Tree 2/Tree 2 Branches.mat
+  artifactKey: Guid(2341656973cb2df48b26cd31949f58ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Tree 2/Tree 2 Branches.mat using Guid(2341656973cb2df48b26cd31949f58ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a685f99d366a1b4b5222e5bde9fd49aa') in 0.0448147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/AssetStore/ALP_Assets/country house01/Materials/OldHouseMapWood01.mat
+  artifactKey: Guid(ad127cd095bb88b4c8b9b72ed871525c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/ALP_Assets/country house01/Materials/OldHouseMapWood01.mat using Guid(ad127cd095bb88b4c8b9b72ed871525c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddf2f41889b9230bc8b9407dd3001dfe') in 0.0619863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Large Rock 1/Large Rock 1.mat
+  artifactKey: Guid(b6306c259b6f870469f9db775b800f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Large Rock 1/Large Rock 1.mat using Guid(b6306c259b6f870469f9db775b800f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d72f44cb074d521c4c07e8751f993b6') in 0.0536668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Tree 1/Tree 1 Mat.mat
+  artifactKey: Guid(cb1223280cfac854184017065d85e17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Tree 1/Tree 1 Mat.mat using Guid(cb1223280cfac854184017065d85e17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '571428cdc6e5673e2c12bc61d7b08b13') in 0.0631918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Foliage 3/Foliage 3.mat
+  artifactKey: Guid(079c9919c8874554ea495e3896ccb229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Foliage 3/Foliage 3.mat using Guid(079c9919c8874554ea495e3896ccb229) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb7d5dbd9b42f059bbab4703c8954427') in 0.0398438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Models/Small Rock 3.FBX
+  artifactKey: Guid(dcb7c5186204b6542b6655eae66b7e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Models/Small Rock 3.FBX using Guid(dcb7c5186204b6542b6655eae66b7e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf04c9b338fd4aa07c13b10e10fc3121') in 0.0473199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Tree 1/Tree 1 Branches.mat
+  artifactKey: Guid(478e546c94611a74099c0fa6e5202431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Tree 1/Tree 1 Branches.mat using Guid(478e546c94611a74099c0fa6e5202431) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2546d54faeff4d4565646fae9bbc353') in 0.0471361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AssetStore/ALP_Assets/country house01/Materials/OldHouseMapWoodGreen.mat
+  artifactKey: Guid(fcf8289d15f4f4e4aa9aa63a1599a942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/ALP_Assets/country house01/Materials/OldHouseMapWoodGreen.mat using Guid(fcf8289d15f4f4e4aa9aa63a1599a942) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f73791421ee3eafe29e34d61968b7584') in 0.0532047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Large Rock 2/Large Rock 2.mat
+  artifactKey: Guid(dca61a30b9a7fab47a822df5bd74027f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Large Rock 2/Large Rock 2.mat using Guid(dca61a30b9a7fab47a822df5bd74027f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fb116ae2e6df8c9cb1d1bd6f29eb437') in 0.0512291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AssetStore/ALP_Assets/country house01/Materials/OldHouseMapWood02.mat
+  artifactKey: Guid(ecd128db1118ce547a6d0d43689030e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/ALP_Assets/country house01/Materials/OldHouseMapWood02.mat using Guid(ecd128db1118ce547a6d0d43689030e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5aa292f180b8456cb58f6dc04b8072cd') in 0.0765937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Models/Tree 1.FBX
+  artifactKey: Guid(fc64fc23d15a9cd43a59d4ba5fcc1735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Models/Tree 1.FBX using Guid(fc64fc23d15a9cd43a59d4ba5fcc1735) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8d86d603b8ac988b1840279daaa2259') in 0.0609233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AssetStore/ALP_Assets/country house01/Models/Materials/Metal01.mat
+  artifactKey: Guid(2915c3f5ec83d0e40b2c36e741dfdcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/ALP_Assets/country house01/Models/Materials/Metal01.mat using Guid(2915c3f5ec83d0e40b2c36e741dfdcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0f82457a0def2966b9bd79bcda861d1') in 0.0506707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Foliage 2/Foliage 2.mat
+  artifactKey: Guid(a582b719c6b2883479f2efb8844c522e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Foliage 2/Foliage 2.mat using Guid(a582b719c6b2883479f2efb8844c522e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '412ed6620b7285d2a7957136482b4e42') in 0.0756831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Models/Grass Patch Large.FBX
+  artifactKey: Guid(d7130bad559ee6f4ebc3641ee16370c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Models/Grass Patch Large.FBX using Guid(d7130bad559ee6f4ebc3641ee16370c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'add7f72a315bba8c903d85630b917281') in 0.1316895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Grass/Grass Small.mat
+  artifactKey: Guid(be1c4bfd0b0545e42b03ccbd1b2d480b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Grass/Grass Small.mat using Guid(be1c4bfd0b0545e42b03ccbd1b2d480b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3457598eabdf83376f9e0804e75c3256') in 0.1338025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AssetStore/ALP_Assets/country house01/Materials/New Material.mat
+  artifactKey: Guid(3fd0805e8dc454844ae22682f7b8730b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/ALP_Assets/country house01/Materials/New Material.mat using Guid(3fd0805e8dc454844ae22682f7b8730b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2780fc3da4898170d83d5a951e44bd2a') in 0.0366818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Models/Small Rock 1.FBX
+  artifactKey: Guid(9f49a3cb181b0b94d9ea3268738f6fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Models/Small Rock 1.FBX using Guid(9f49a3cb181b0b94d9ea3268738f6fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be920002d1e96d790131ce25556da41d') in 0.1605555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Materials/Ground Materials/Rock Floor 1.mat
+  artifactKey: Guid(dba1b385d51554b4f9372291b6d45c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Materials/Ground Materials/Rock Floor 1.mat using Guid(dba1b385d51554b4f9372291b6d45c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d08f9332c3885aa6952cc92138445d0') in 0.1694096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AssetStore/JP Environmental Asset Pack/Models/Large Rock 2.FBX
+  artifactKey: Guid(7e5d03776b0f987408a89f8e9e9252f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/JP Environmental Asset Pack/Models/Large Rock 2.FBX using Guid(7e5d03776b0f987408a89f8e9e9252f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a932164993e4592f5c2daa0191ee23f') in 0.145941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.024577 seconds.
+  path: Assets/AssetStore/NightSkyHDRI014_2K_HDR.exr
+  artifactKey: Guid(4cbe7ea7ec279d6448533fdc0f433a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/NightSkyHDRI014_2K_HDR.exr using Guid(4cbe7ea7ec279d6448533fdc0f433a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e56306e1241eab4dfd9fe279a989fccb') in 0.0815324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.879287 seconds.
+  path: Assets/AssetStore/NightSkyHDRI014_2K_HDR.exr
+  artifactKey: Guid(4cbe7ea7ec279d6448533fdc0f433a2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/NightSkyHDRI014_2K_HDR.exr using Guid(4cbe7ea7ec279d6448533fdc0f433a2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '41fe7a06596991cefa96e91fa613682e') in 0.0427977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.598462 seconds.
+  path: Assets/AssetStore/Paper
+  artifactKey: Guid(cd8f1f5c2bd4d8347b0ee0c70107a7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Paper using Guid(cd8f1f5c2bd4d8347b0ee0c70107a7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4738969daf6228912c428b24934a6dc5') in 0.0014601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.891848 seconds.
+  path: Assets/AssetStore/Paper
+  artifactKey: Guid(cd8f1f5c2bd4d8347b0ee0c70107a7ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/Paper using Guid(cd8f1f5c2bd4d8347b0ee0c70107a7ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3d1a24599f43fc48bd653165edd2f4c9') in 0.0511081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.647926 seconds.
+  path: Assets/AssetStore/Paper/67 is not good.fbx
+  artifactKey: Guid(1f321d9ddb9db11438065a7a0af69022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Paper/67 is not good.fbx using Guid(1f321d9ddb9db11438065a7a0af69022) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '550b7bfb835302f4ef51d4a02d30f9a7') in 0.0709021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/AssetStore/Paper/Paper - Death.fbx
+  artifactKey: Guid(42c3afb9d4005284ead2feefa8a041bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/Paper/Paper - Death.fbx using Guid(42c3afb9d4005284ead2feefa8a041bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab75011899531507fd0aa32f500b7fac') in 0.0540891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.838537 seconds.
+  path: Assets/AssetStore/Paper/Paper - Death.fbm/Material.001_BaseColor.png
+  artifactKey: Guid(ebe2e17e354ef9a40a914562c031f308) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/Paper/Paper - Death.fbm/Material.001_BaseColor.png using Guid(ebe2e17e354ef9a40a914562c031f308) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '781755e35fcba56a47aabfc23486c66a') in 0.0620321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AssetStore/Paper/67 is not good.fbm/Material.001_BaseColor.png
+  artifactKey: Guid(6373f9b6f6a079e42b0de3b0817690ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/Paper/67 is not good.fbm/Material.001_BaseColor.png using Guid(6373f9b6f6a079e42b0de3b0817690ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e37f3027880f730151cf220f37b01444') in 0.0391347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/AssetStore/Paper/67 is not good.fbx
+  artifactKey: Guid(1f321d9ddb9db11438065a7a0af69022) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/Paper/67 is not good.fbx using Guid(1f321d9ddb9db11438065a7a0af69022) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd0268143cd9560425c02e378e14d90dc') in 0.0413077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AssetStore/Paper/Paper - Death.fbm
+  artifactKey: Guid(4d30f77b9b2109f478426ce64a2aa4f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/Paper/Paper - Death.fbm using Guid(4d30f77b9b2109f478426ce64a2aa4f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '833e6d2fa3f05192b264e4c63e480ba5') in 0.0258864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/AssetStore/Paper/Find my 6-7 papers or You will see my wrath.fbx
+  artifactKey: Guid(bc8857d10f3c147459f17186dbf1722c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/Paper/Find my 6-7 papers or You will see my wrath.fbx using Guid(bc8857d10f3c147459f17186dbf1722c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '881a1691213fdb6f5ddb2e939647029f') in 0.0377502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 159.138107 seconds.
+  path: Assets/AssetStore/NighSky.mat
+  artifactKey: Guid(4623f39084f7bdc489ac663c09b72c5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/AssetStore/NighSky.mat using Guid(4623f39084f7bdc489ac663c09b72c5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19135ca0b7910efbd82bcd50af11066f') in 0.0395573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.676482 seconds.
+  path: Assets/CharacterModels
+  artifactKey: Guid(d20b525b6fa36fa489d33871729baae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterModels using Guid(d20b525b6fa36fa489d33871729baae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '207748639ddf5c1b4f193fca76efd1a3') in 0.0023436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.581047 seconds.
+  path: Assets/CharacterModels/Angel Model
+  artifactKey: Guid(73c87e22b81d4dd448e89b2a03aca414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterModels/Angel Model using Guid(73c87e22b81d4dd448e89b2a03aca414) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7d8bb2825a64f3afdf8e3aaadb92c07') in 0.0014453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.947380 seconds.
+  path: Assets/CharacterModels/Angel Model
+  artifactKey: Guid(73c87e22b81d4dd448e89b2a03aca414) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CharacterModels/Angel Model using Guid(73c87e22b81d4dd448e89b2a03aca414) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '538def052c1f2907571e2d0759da1fd4') in 0.0516834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 195.206256 seconds.
+  path: Assets/CharacterModels/Angel Model/Angel With Animation.fbx
+  artifactKey: Guid(c3b1360ec55905e46ac4468f948c7a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterModels/Angel Model/Angel With Animation.fbx using Guid(c3b1360ec55905e46ac4468f948c7a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf65bfe95d3b6f049a525a8d035192f5') in 0.1863467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 108
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.827149 seconds.
+  path: Assets/CharacterModels/Angel Model/Angel With Animation.fbx
+  artifactKey: Guid(c3b1360ec55905e46ac4468f948c7a89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CharacterModels/Angel Model/Angel With Animation.fbx using Guid(c3b1360ec55905e46ac4468f948c7a89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb89f233c844f92a80f53ebcc6a63077') in 0.1296272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 108
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.708599 seconds.
+  path: Assets/CharacterModels/Angel Model/Angel With Animation.fbx
+  artifactKey: Guid(c3b1360ec55905e46ac4468f948c7a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterModels/Angel Model/Angel With Animation.fbx using Guid(c3b1360ec55905e46ac4468f948c7a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24777aaa82a499c5c350c81f14308a8e') in 0.1378909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 108
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.898920 seconds.
+  path: Assets/CharacterModels/Angel Model/Mini_Angel_BaseColor.png
+  artifactKey: Guid(2b2d7aeaf6b8c0b42be6025b6fa9b5a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CharacterModels/Angel Model/Mini_Angel_BaseColor.png using Guid(2b2d7aeaf6b8c0b42be6025b6fa9b5a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ede5e5786f4d28a0195b05436d9441e') in 0.0393598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.422344 seconds.
+  path: Assets/CharacterModels/Angel Model/Mini Angel 1.fbx
+  artifactKey: Guid(eb349a6b644916f41a02ba035b45af48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterModels/Angel Model/Mini Angel 1.fbx using Guid(eb349a6b644916f41a02ba035b45af48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9f10817a980bfcc40fdf3f06204538d') in 0.0547226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.925257 seconds.
+  path: Assets/CharacterModels/Angel Model/Mini Angel 1.fbx
+  artifactKey: Guid(eb349a6b644916f41a02ba035b45af48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CharacterModels/Angel Model/Mini Angel 1.fbx using Guid(eb349a6b644916f41a02ba035b45af48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '87f1c376e682d799f49f6121e7471dbb') in 0.0486308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.124944 seconds.
+  path: Assets/CharacterModels/Angel Model/Angel Without Animation.fbx
+  artifactKey: Guid(eb349a6b644916f41a02ba035b45af48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterModels/Angel Model/Angel Without Animation.fbx using Guid(eb349a6b644916f41a02ba035b45af48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3512e75ade6bf6f4b902601e370b2edd') in 0.0896043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.854869 seconds.
+  path: Assets/CharacterModels/Angel Model/Angel Without Animation.fbx
+  artifactKey: Guid(eb349a6b644916f41a02ba035b45af48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CharacterModels/Angel Model/Angel Without Animation.fbx using Guid(eb349a6b644916f41a02ba035b45af48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '81d03ef5400bc3275940135b3c49fd6d') in 0.0888691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
