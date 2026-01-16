@@ -1,7 +1,14 @@
 fileFormatVersion: 2
 guid: 9508ccae6dd32b54cb61bd81eda00380
+AssetOrigin:
+  serializedVersion: 1
+  productId: 154271
+  packageName: Human Basic Motions FREE
+  packageVersion: 2.4.1
+  assetPath: Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle02.fbx
+  uploadId: 825236
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24200
   internalIDToNameTable: []
   externalObjects: {}
   materials:
@@ -16,8 +23,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -205,6 +210,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -229,7 +237,7 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human:
-    - boneName: B-hips
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint1
       humanName: Hips
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -237,7 +245,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: B-thigh.L
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint8
       humanName: LeftUpperLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -245,7 +253,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: B-thigh.R
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint13
       humanName: RightUpperLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -253,7 +261,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: B-shin.L
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint9
       humanName: LeftLowerLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -261,7 +269,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: B-shin.R
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint14
       humanName: RightLowerLeg
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -269,7 +277,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: B-foot.L
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint10
       humanName: LeftFoot
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -277,7 +285,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: B-foot.R
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint15
       humanName: RightFoot
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -285,7 +293,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: B-spine
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint3
       humanName: Spine
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -293,15 +301,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: B-chest
-      humanName: Chest
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-neck
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint5
       humanName: Neck
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -309,7 +309,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: B-head
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:HEAD
       humanName: Head
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -317,7 +317,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: B-shoulder.L
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint18
       humanName: LeftShoulder
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -325,7 +325,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: B-shoulder.R
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint22
       humanName: RightShoulder
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -333,7 +333,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: B-upperArm.L
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint19
       humanName: LeftUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -341,7 +341,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: B-upperArm.R
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint23
       humanName: RightUpperArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -349,7 +349,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: B-forearm.L
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint20
       humanName: LeftLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -357,7 +357,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: B-forearm.R
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint24
       humanName: RightLowerArm
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -365,7 +365,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: B-hand.L
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint21
       humanName: LeftHand
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -373,7 +373,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: B-hand.R
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint25
       humanName: RightHand
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -381,7 +381,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: B-toe.L
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint12
       humanName: LeftToes
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -389,7 +389,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: B-toe.R
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint17
       humanName: RightToes
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -397,550 +397,252 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: B-jaw
-      humanName: Jaw
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-thumb01.L
-      humanName: Left Thumb Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-thumb02.L
-      humanName: Left Thumb Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-thumb03.L
-      humanName: Left Thumb Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-indexFinger01.L
-      humanName: Left Index Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-indexFinger02.L
-      humanName: Left Index Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-indexFinger03.L
-      humanName: Left Index Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-middleFinger01.L
-      humanName: Left Middle Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-middleFinger02.L
-      humanName: Left Middle Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-middleFinger03.L
-      humanName: Left Middle Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-ringFinger01.L
-      humanName: Left Ring Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-ringFinger02.L
-      humanName: Left Ring Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-ringFinger03.L
-      humanName: Left Ring Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-pinky01.L
-      humanName: Left Little Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-pinky02.L
-      humanName: Left Little Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-pinky03.L
-      humanName: Left Little Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-thumb01.R
-      humanName: Right Thumb Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-thumb02.R
-      humanName: Right Thumb Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-thumb03.R
-      humanName: Right Thumb Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-indexFinger01.R
-      humanName: Right Index Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-indexFinger02.R
-      humanName: Right Index Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-indexFinger03.R
-      humanName: Right Index Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-middleFinger01.R
-      humanName: Right Middle Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-middleFinger02.R
-      humanName: Right Middle Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-middleFinger03.R
-      humanName: Right Middle Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-ringFinger01.R
-      humanName: Right Ring Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-ringFinger02.R
-      humanName: Right Ring Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-ringFinger03.R
-      humanName: Right Ring Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-pinky01.R
-      humanName: Right Little Proximal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-pinky02.R
-      humanName: Right Little Intermediate
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: B-pinky03.R
-      humanName: Right Little Distal
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
     skeleton:
-    - name: Human_DummyModel_M(Clone)
+    - name: AngieModel(Clone)
       parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface97
+      parentName: AngieModel(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: HumanM_BodyMesh
-      parentName: Human_DummyModel_M(Clone)
-      position: {x: -0, y: 0, z: 0}
+    - name: NEW_CHIBI_RIGGING_REGERO2:globalCTRL
+      parentName: AngieModel(Clone)
+      position: {x: -0, y: 0.000004957683, z: 0.00017454634}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 3.2686903, y: 3.2686903, z: 3.2686903}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve
+      parentName: NEW_CHIBI_RIGGING_REGERO2:globalCTRL
+      position: {x: -0, y: 0.00035499205, z: -0.00017937174}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Rig
-      parentName: Human_DummyModel_M(Clone)
-      position: {x: -0, y: 0, z: 0}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve1
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve
+      position: {x: 9.86076e-36, y: 0.000071657145, z: 0.00014331433}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: B-root
-      parentName: Rig
-      position: {x: -0, y: 0, z: 0}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve4
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve1
+      position: {x: -3.944304e-35, y: 0.00009895519, z: 0.0000068244926}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: B-spineProxy
-      parentName: B-root
-      position: {x: -0, y: 1.063237, z: 0.023323}
-      rotation: {x: 0.003002514, y: 0, z: -0, w: 0.9999955}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve2
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve1
+      position: {x: -3.944304e-35, y: 0.00009895519, z: 0.0000068244926}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: B-hips
-      parentName: B-root
-      position: {x: -0, y: 0.9797119, z: 0.016772}
-      rotation: {x: 0.039127965, y: 0, z: -0, w: 0.9992342}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve3
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve2
+      position: {x: 2.958228e-35, y: 0.00007677554, z: 0.000012795926}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: B-spine
-      parentName: B-hips
-      position: {x: -0, y: 0.08378151, z: -0.000000380062}
-      rotation: {x: -0.036127485, y: 0, z: -0, w: 0.9993472}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve5
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve3
+      position: {x: -3.4512658e-35, y: 0.00010474204, z: 0.0000030245837}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: B-chest
-      parentName: B-spine
-      position: {x: -0, y: 0.20032859, z: 0.000000026720997}
-      rotation: {x: -0.03633787, y: 0, z: -0, w: 0.9993396}
-      scale: {x: 1, y: 0.9999997, z: 0.9999997}
-    - name: B-shoulder.R
-      parentName: B-chest
-      position: {x: -0, y: 0.191156, z: -0.005313748}
-      rotation: {x: -0.5111114, y: -0.45326263, z: -0.48454675, w: 0.54638135}
-      scale: {x: 1.0000002, y: 1, z: 1.0000002}
-    - name: B-upperArm.R
-      parentName: B-shoulder.R
-      position: {x: -0.00000057259496, y: 0.20157637, z: 0.00000020945822}
-      rotation: {x: 0.023701243, y: 0.7095232, z: -0.07322933, w: 0.700466}
-      scale: {x: 1.0000005, y: 0.9999997, z: 1}
-    - name: B-forearm.R
-      parentName: B-upperArm.R
-      position: {x: 0.00000029779372, y: 0.2341377, z: -0.00000010364547}
-      rotation: {x: 0.0010380057, y: -0.00042333105, z: 0.0032017508, w: 0.9999943}
-      scale: {x: 0.9999992, y: 1.0000004, z: 0.9999994}
-    - name: B-hand.R
-      parentName: B-forearm.R
-      position: {x: -0.00000026537117, y: 0.19596447, z: 0.0000000011376525}
-      rotation: {x: 0.013655456, y: 0.7053685, z: 0.03309806, w: 0.707936}
-      scale: {x: 1.0000001, y: 0.99999934, z: 1.0000007}
-    - name: B-handProp.R
-      parentName: B-hand.R
-      position: {x: 0.0036493945, y: 0.11645628, z: 0.025236836}
-      rotation: {x: -0.013668834, y: 0.012546043, z: 0.6760833, w: 0.7365916}
-      scale: {x: 1.0000006, y: 1.0000005, z: 0.9999996}
-    - name: B-indexFinger01.R
-      parentName: B-hand.R
-      position: {x: -0.039847255, y: 0.14592145, z: -0.0024733872}
-      rotation: {x: 0.01905501, y: -0.014958269, z: 0.031315945, w: 0.99921596}
-      scale: {x: 1.0000004, y: 1, z: 0.9999994}
-    - name: B-indexFinger02.R
-      parentName: B-indexFinger01.R
-      position: {x: -0.00000016483804, y: 0.051680062, z: -0.0000004189711}
-      rotation: {x: 0.040756594, y: 0.0287693, z: -0.0030868168, w: 0.9987501}
-      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
-    - name: B-indexFinger03.R
-      parentName: B-indexFinger02.R
-      position: {x: -0.00000065176897, y: 0.038299132, z: 0.00000025667788}
-      rotation: {x: -0.0062385825, y: 0.00402363, z: -0.010918415, w: 0.99991286}
-      scale: {x: 0.99999994, y: 1.0000002, z: 0.99999994}
-    - name: B-middleFinger01.R
-      parentName: B-hand.R
-      position: {x: -0.010262938, y: 0.14571612, z: -0.0098788645}
-      rotation: {x: -0.00469973, y: -0.003257197, z: -0.0018006867, w: 0.99998206}
-      scale: {x: 1.0000007, y: 0.9999999, z: 1.0000002}
-    - name: B-middleFinger02.R
-      parentName: B-middleFinger01.R
-      position: {x: -0.0000005974616, y: 0.05384352, z: -0.0000003771701}
-      rotation: {x: 0.039357945, y: 0.045738634, z: 0.0037789168, w: 0.9981707}
-      scale: {x: 0.99999964, y: 1.0000004, z: 1.0000001}
-    - name: B-middleFinger03.R
-      parentName: B-middleFinger02.R
-      position: {x: -0.00000031228402, y: 0.03966582, z: 0.0000007806046}
-      rotation: {x: 0.0049830656, y: -0.021227919, z: -0.006324002, w: 0.99974227}
-      scale: {x: 0.99999964, y: 1.0000004, z: 0.9999995}
-    - name: B-ringFinger01.R
-      parentName: B-hand.R
-      position: {x: 0.017707428, y: 0.14186867, z: -0.0063086674}
-      rotation: {x: -0.007116276, y: 0.0017723303, z: -0.036399793, w: 0.99931043}
-      scale: {x: 1.0000005, y: 1.0000002, z: 0.99999964}
-    - name: B-ringFinger02.R
-      parentName: B-ringFinger01.R
-      position: {x: -0.000000542884, y: 0.04994895, z: 0.00000035361504}
-      rotation: {x: 0.037964847, y: -0.0021153123, z: 0.01253277, w: 0.9991982}
-      scale: {x: 0.9999996, y: 1, z: 1.0000001}
-    - name: B-ringFinger03.R
-      parentName: B-ringFinger02.R
-      position: {x: 0.00000043444734, y: 0.038347248, z: -0.000000056919788}
-      rotation: {x: 0.020910524, y: -0.040652312, z: -0.015794668, w: 0.99882966}
-      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
-    - name: B-pinky01.R
-      parentName: B-hand.R
-      position: {x: 0.04595776, y: 0.13234657, z: -0.0026849052}
-      rotation: {x: -0.011725174, y: -0.016483126, z: -0.04422547, w: 0.99881685}
-      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000002}
-    - name: B-pinky02.R
-      parentName: B-pinky01.R
-      position: {x: -0.000000007593004, y: 0.042360805, z: -0.0000006170239}
-      rotation: {x: 0.038973898, y: 0.01117822, z: 0.009239775, w: 0.99913496}
-      scale: {x: 1.0000002, y: 0.99999964, z: 0.9999993}
-    - name: B-pinky03.R
-      parentName: B-pinky02.R
-      position: {x: 0.000000490262, y: 0.03559031, z: 0.000000525607}
-      rotation: {x: 0.02210124, y: -0.021823417, z: 0.009211327, w: 0.99947506}
-      scale: {x: 0.9999995, y: 0.9999999, z: 0.99999976}
-    - name: B-thumb01.R
-      parentName: B-hand.R
-      position: {x: -0.043999806, y: 0.053600658, z: 0.014425339}
-      rotation: {x: -0.22472134, y: 0.6304507, z: 0.29821232, w: 0.6805157}
-      scale: {x: 0.9999995, y: 1.0000002, z: 1.0000005}
-    - name: B-thumb02.R
-      parentName: B-thumb01.R
-      position: {x: -0.00000024829808, y: 0.052145515, z: 0.0000002662714}
-      rotation: {x: 0.03817449, y: 0.013301932, z: -0.008044989, w: 0.9991502}
-      scale: {x: 1.0000006, y: 0.99999946, z: 1.0000002}
-    - name: B-thumb03.R
-      parentName: B-thumb02.R
-      position: {x: 0.00000023047774, y: 0.038913652, z: 0.00000013830525}
-      rotation: {x: -0.06035408, y: 0.014396222, z: 0.007428651, w: 0.99804556}
-      scale: {x: 0.9999998, y: 1.0000007, z: 0.9999995}
-    - name: B-neck
-      parentName: B-chest
-      position: {x: -0, y: 0.27073184, z: -0.00000024204712}
-      rotation: {x: 0.10320651, y: 0, z: -0, w: 0.99465996}
-      scale: {x: 1, y: 1.0000005, z: 1.0000005}
-    - name: B-head
-      parentName: B-neck
-      position: {x: -0, y: 0.074098095, z: 0.0000011746794}
-      rotation: {x: -0.069990024, y: 0, z: -0, w: 0.9975477}
-      scale: {x: 1, y: 0.99999976, z: 0.99999976}
-    - name: B-jaw
-      parentName: B-head
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0.7069846, y: -0.000004950671, z: 0.0000049489627, w: 0.70722896}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve8
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve3
+      position: {x: -0.00008690992, y: 0.000009916781, z: -0.00000995571}
+      rotation: {x: 0, y: 0, z: 0.60551006, w: 0.7958377}
       scale: {x: 1, y: 1, z: 1}
-    - name: B-shoulder.L
-      parentName: B-chest
-      position: {x: -0, y: 0.191156, z: -0.005313748}
-      rotation: {x: -0.5111114, y: 0.45326266, z: 0.48454675, w: 0.54638135}
-      scale: {x: 1.0000002, y: 1, z: 1.0000002}
-    - name: B-upperArm.L
-      parentName: B-shoulder.L
-      position: {x: 0.00000057259496, y: 0.20157637, z: 0.00000020945822}
-      rotation: {x: 0.023826085, y: -0.7095105, z: 0.07335427, w: 0.7004615}
-      scale: {x: 1.0000004, y: 0.9999997, z: 1}
-    - name: B-forearm.L
-      parentName: B-upperArm.L
-      position: {x: -0.000000085940925, y: 0.2341381, z: -0.0000020371474}
-      rotation: {x: 0.00065947475, y: 0.00042493717, z: -0.0032002397, w: 0.9999946}
-      scale: {x: 0.9999994, y: 1.0000005, z: 0.9999996}
-    - name: B-hand.L
-      parentName: B-forearm.L
-      position: {x: -0.00000014965505, y: 0.19596392, z: -0.000002056581}
-      rotation: {x: 0.013797613, y: -0.70536244, z: -0.033240616, w: 0.70793253}
-      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000007}
-    - name: B-handProp.L
-      parentName: B-hand.L
-      position: {x: -0.0036493945, y: 0.11645614, z: 0.02523684}
-      rotation: {x: -0.0136688305, y: -0.012546046, z: -0.67608327, w: 0.73659164}
-      scale: {x: 0.9999996, y: 1.0000005, z: 0.9999996}
-    - name: B-indexFinger01.L
-      parentName: B-hand.L
-      position: {x: 0.039847255, y: 0.14592129, z: -0.0024733818}
-      rotation: {x: 0.019053983, y: 0.014957361, z: -0.03131633, w: 0.99921596}
-      scale: {x: 1.0000005, y: 0.9999999, z: 1.0000001}
-    - name: B-indexFinger02.L
-      parentName: B-indexFinger01.L
-      position: {x: 0.000000121531, y: 0.05168002, z: -0.0000003132513}
-      rotation: {x: 0.04075742, y: -0.028769415, z: 0.0030873688, w: 0.9987501}
-      scale: {x: 1.0000001, y: 1.0000004, z: 0.9999996}
-    - name: B-indexFinger03.L
-      parentName: B-indexFinger02.L
-      position: {x: 0.0000006657549, y: 0.038299095, z: 0.00000026302325}
-      rotation: {x: -0.0062383427, y: -0.0040235315, z: 0.010918289, w: 0.99991286}
-      scale: {x: 0.99999994, y: 0.9999993, z: 1}
-    - name: B-middleFinger01.L
-      parentName: B-hand.L
-      position: {x: 0.010262938, y: 0.14571597, z: -0.009878859}
-      rotation: {x: -0.0047006845, y: 0.0032565766, z: 0.0018007633, w: 0.99998206}
-      scale: {x: 1.0000007, y: 0.9999998, z: 1.0000001}
-    - name: B-middleFinger02.L
-      parentName: B-middleFinger01.L
-      position: {x: 0.0000005989536, y: 0.05384347, z: -0.00000026802326}
-      rotation: {x: 0.039369956, y: -0.04573896, z: -0.0037796681, w: 0.99817014}
-      scale: {x: 0.9999998, y: 0.9999999, z: 0.99999976}
-    - name: B-middleFinger03.L
-      parentName: B-middleFinger02.L
-      position: {x: 0.00000024472794, y: 0.039665613, z: -0.00000007511139}
-      rotation: {x: 0.0049830815, y: 0.02122786, z: 0.0063240924, w: 0.99974227}
-      scale: {x: 0.9999996, y: 1.0000002, z: 1.0000002}
-    - name: B-ringFinger01.L
-      parentName: B-hand.L
-      position: {x: -0.017707428, y: 0.14186852, z: -0.0063086627}
-      rotation: {x: -0.0071172696, y: -0.0017734275, z: 0.036399566, w: 0.99931043}
-      scale: {x: 1.0000005, y: 1.0000002, z: 0.9999996}
-    - name: B-ringFinger02.L
-      parentName: B-ringFinger01.L
-      position: {x: 0.000000539424, y: 0.04994888, z: -0.00000054509644}
-      rotation: {x: 0.037959207, y: 0.0021155272, z: -0.012531891, w: 0.99919856}
-      scale: {x: 0.9999995, y: 0.99999964, z: 1.0000007}
-    - name: B-ringFinger03.L
-      parentName: B-ringFinger02.L
-      position: {x: -0.00000042212133, y: 0.038347226, z: 0.00000006269704}
-      rotation: {x: 0.020910062, y: 0.040652186, z: 0.015794791, w: 0.99882966}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve9
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve8
+      position: {x: -0.00013565205, y: -0.0000009811878, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: B-pinky01.L
-      parentName: B-hand.L
-      position: {x: -0.04595776, y: 0.1323464, z: -0.0026858994}
-      rotation: {x: -0.011728404, y: 0.016481997, z: 0.044223107, w: 0.99881685}
-      scale: {x: 1.0000001, y: 0.9999994, z: 1.0000001}
-    - name: B-pinky02.L
-      parentName: B-pinky01.L
-      position: {x: -4.7400034e-10, y: 0.042361826, z: 0.00000049031206}
-      rotation: {x: 0.038998768, y: -0.011178487, z: -0.009243484, w: 0.99913394}
-      scale: {x: 1.0000002, y: 1.0000007, z: 0.9999994}
-    - name: B-pinky03.L
-      parentName: B-pinky02.L
-      position: {x: -0.000000503181, y: 0.03559012, z: -0.0000004567936}
-      rotation: {x: 0.022101216, y: 0.021823809, z: -0.009210751, w: 0.99947506}
-      scale: {x: 1.0000005, y: 0.9999999, z: 1.0000007}
-    - name: B-thumb01.L
-      parentName: B-hand.L
-      position: {x: 0.043999806, y: 0.053600606, z: 0.014425342}
-      rotation: {x: -0.22472176, y: -0.63045156, z: -0.29821017, w: 0.68051577}
-      scale: {x: 1.0000002, y: 0.9999996, z: 1.0000001}
-    - name: B-thumb02.L
-      parentName: B-thumb01.L
-      position: {x: 0.00000040659947, y: 0.052145515, z: 0.000000065670875}
-      rotation: {x: 0.03817219, y: -0.01330177, z: 0.008043564, w: 0.9991503}
-      scale: {x: 0.9999997, y: 1.0000002, z: 1.0000004}
-    - name: B-thumb03.L
-      parentName: B-thumb02.L
-      position: {x: -0.0000005391776, y: 0.038914427, z: 0.0000006627957}
-      rotation: {x: -0.06035337, y: -0.01439678, z: -0.00742841, w: 0.9980456}
-      scale: {x: 0.9999997, y: 1.0000001, z: 0.99999946}
-    - name: B-thigh.L
-      parentName: B-hips
-      position: {x: -0.086950995, y: -0.054498807, z: 0.0009344498}
-      rotation: {x: 0.9976029, y: -0.03748414, z: 0.013962457, w: 0.056466974}
-      scale: {x: 1, y: 1, z: 1.0000015}
-    - name: B-shin.L
-      parentName: B-thigh.L
-      position: {x: 0.000000291668, y: 0.4122319, z: -0.0000007366876}
-      rotation: {x: 0.0680375, y: -0.0038438325, z: -0.03683677, w: 0.9969951}
-      scale: {x: 1.0000008, y: 0.9999997, z: 0.9999997}
-    - name: B-foot.L
-      parentName: B-shin.L
-      position: {x: 0.000000012107979, y: 0.38807765, z: 0.0000007308742}
-      rotation: {x: -0.5175914, y: -0.009148062, z: -0.0052672923, w: 0.8555628}
-      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
-    - name: B-toe.L
-      parentName: B-foot.L
-      position: {x: 0.00000024583952, y: 0.17744446, z: -0.00000026636735}
-      rotation: {x: -0.0000003125209, y: 0.95776296, z: -0.2875589, w: -0.000000547451}
-      scale: {x: 1, y: 0.99999994, z: 0.9999993}
-    - name: B-thigh.R
-      parentName: B-hips
-      position: {x: 0.086950995, y: -0.0544998, z: 0.000934528}
-      rotation: {x: 0.99760276, y: 0.03748325, z: -0.013968838, w: 0.0564685}
-      scale: {x: 0.9999942, y: 1.0000001, z: 0.99998736}
-    - name: B-shin.R
-      parentName: B-thigh.R
-      position: {x: 0.0000012584915, y: 0.41223097, z: 0.0000012415915}
-      rotation: {x: 0.06803933, y: 0.003844375, z: 0.03683562, w: 0.996995}
-      scale: {x: 0.9999999, y: 1.0000007, z: 1}
-    - name: B-foot.R
-      parentName: B-shin.R
-      position: {x: -0.00000058465486, y: 0.38807717, z: -0.0000006054801}
-      rotation: {x: -0.5175903, y: 0.009161436, z: 0.0052741864, w: 0.8555633}
-      scale: {x: 1.0000008, y: 0.9999992, z: 0.99999994}
-    - name: B-toe.R
-      parentName: B-foot.R
-      position: {x: 0.000002517725, y: 0.17744789, z: 0.00000056846955}
-      rotation: {x: 0.00000014273196, y: 0.9577636, z: -0.28755668, w: 0.00000093970334}
-      scale: {x: 1, y: 0.9999949, z: 1.0000048}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve10
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve9
+      position: {x: -0.00014373283, y: -0.0000009811878, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve13
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve3
+      position: {x: 0.00008689999, y: 0.000009916781, z: -0.0000130055}
+      rotation: {x: 0, y: -0, z: -0.5811788, w: 0.8137759}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve12
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve13
+      position: {x: 0.00013768997, y: -0.0000009811878, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve11
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve12
+      position: {x: 0.00014083816, y: -0.0000009811878, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve6
+      parentName: NEW_CHIBI_RIGGING_REGERO2:globalCTRL
+      position: {x: -0.000070875874, y: 0.0000081727885, z: -0.000012804843}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve17
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve6
+      position: {x: -0.000002424119, y: 0.00025717527, z: 0.00012638707}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve14
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve6
+      position: {x: -0.000012016532, y: 0.0000103613565, z: 0.00001282844}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle1
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve6
+      position: {x: -0.0000024336753, y: 0.000014184146, z: -0.00003517423}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.30593294, y: 0.30593294, z: 0.30593294}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve7
+      parentName: NEW_CHIBI_RIGGING_REGERO2:globalCTRL
+      position: {x: 0.00007434057, y: 0.0000081727885, z: -0.000012804843}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve16
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve7
+      position: {x: -0.0000010350276, y: 0.00025684462, z: 0.00012638707}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve15
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve7
+      position: {x: 0.0000075755866, y: 0.0000103613565, z: 0.000007299199}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle2
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve7
+      position: {x: -0.0000010309814, y: 0.000013133435, z: -0.000035196914}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.30593294, y: 0.30593294, z: 0.30593294}
+    - name: NEW_CHIBI_RIGGING_REGERO2:rootGRP
+      parentName: AngieModel(Clone)
+      position: {x: -0, y: -0.000011247448, z: 0.00017454634}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 3.2686903, y: 3.2686903, z: 3.2686903}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint1
+      parentName: NEW_CHIBI_RIGGING_REGERO2:rootGRP
+      position: {x: -0, y: 0.0003599497, z: -0.00017937174}
+      rotation: {x: -0.16245988, y: 0.688191, z: -0.16245988, w: 0.688191}
+      scale: {x: 1.0000001, y: 1, z: 1.0000004}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint2
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint1
+      position: {x: -0.00016023031, y: -4.4408917e-20, z: -7.115655e-20}
+      rotation: {x: 0.000000007450581, y: -0, z: -0.4961389, w: 0.8682432}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint3
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint2
+      position: {x: -0.0000991902, y: -5.82867e-20, z: -5.556988e-20}
+      rotation: {x: -0.00000005561825, y: 0.00000003728085, z: 0.048127465, w: 0.9988412}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint4
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint3
+      position: {x: -0.000077834564, y: -4.4408917e-20, z: -4.479051e-20}
+      rotation: {x: 0.9681953, y: -0.2501957, z: -0.000000003831913, w: -0.00000010595657}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint5
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint4
+      position: {x: -0.00006854071, y: 0.000017813058, z: 3.9350326e-20}
+      rotation: {x: -0.000000046226834, y: 0.000000038357594, z: -0.15497917, w: 0.9879177}
+      scale: {x: 0.99999994, y: 0.99999976, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:HEAD
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint5
+      position: {x: -0.00003390504, y: 0.000010133316, z: 2.3165385e-20}
+      rotation: {x: -0.99527407, y: 0.09710574, z: 0.000000050236586, w: 0.000000032078017}
+      scale: {x: 1, y: 1.0000001, z: 0.9999998}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint7
+      parentName: NEW_CHIBI_RIGGING_REGERO2:HEAD
+      position: {x: -0.00010273437, y: 0.000009731084, z: -6.17085e-20}
+      rotation: {x: 0.4570652, y: -0.5395288, z: 0.45706522, w: 0.53952897}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.9999998}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint18
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint4
+      position: {x: -0.000012672946, y: -0.0000060708635, z: 0.0000869099}
+      rotation: {x: -0.40556222, y: 0.5792404, z: 0.41047695, w: 0.5757678}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.99999976}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint19
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint18
+      position: {x: -0.0001356555, y: 0.00000017331246, z: -3.3306686e-20}
+      rotation: {x: -0.00000008940697, y: 0.000000029802322, z: 0.00039586425, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint20
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint19
+      position: {x: -0.00014373577, y: 0.0000003558677, z: -1.1102229e-20}
+      rotation: {x: 0.0000000306985, y: -0.00000011622982, z: -0.03327601, w: 0.9994462}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999999}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint21
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint20
+      position: {x: -0.00007714804, y: -1.2490008e-20, z: 0}
+      rotation: {x: -0.000000089707335, y: 0.00000008476021, z: 0.028627235, w: 0.99959016}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000001}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint22
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint4
+      position: {x: -0.000013682808, y: -0.000008948568, z: -0.000086902786}
+      rotation: {x: 0.5792402, y: 0.4055622, z: -0.5757679, w: 0.41047707}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1.0000001}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint23
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint22
+      position: {x: 0.00013768043, y: -0.0000001907129, z: 1.939682e-12}
+      rotation: {x: -0.000000014901161, y: -0.000000014901161, z: 0.00039589405, w: 1}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000008}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint24
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint23
+      position: {x: 0.0001408162, y: -0.00000032887587, z: 1.9837545e-12}
+      rotation: {x: 0.00000008889125, y: -0.000000029349914, z: -0.033276014, w: 0.9994463}
+      scale: {x: 1, y: 0.99999994, z: 0.99999964}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint25
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint24
+      position: {x: 0.00007714843, y: 2.734364e-10, z: -7.5561844e-14}
+      rotation: {x: -0.00000003001604, y: 0.000000045855902, z: 0.028627148, w: 0.9995902}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint8
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint2
+      position: {x: 0.000030885698, y: 0.0000017230024, z: -0.00007330955}
+      rotation: {x: 0.32848296, y: -0.94450974, z: -0.00046116987, w: -0.00013536066}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000005}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint9
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint8
+      position: {x: -0.00009839361, y: -0.00008571486, z: -0.000000012045444}
+      rotation: {x: 0.90554184, y: 0.4242569, z: 0.00011458341, w: -0.000052724492}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint10
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint9
+      position: {x: -0.00024010004, y: -0.000038662147, z: -0.00000003810815}
+      rotation: {x: -0.58761084, y: -0.8091438, z: 0.000000026426278, w: 0.000000040162377}
+      scale: {x: 1.0000004, y: 1, z: 1.0000005}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint11
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint10
+      position: {x: 0.000047936304, y: 0.0000046708074, z: 0.000009539136}
+      rotation: {x: -0.018558234, y: 0.99982774, z: -0.00014013062, w: -0.00044426782}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint12
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint11
+      position: {x: -0.00004227758, y: -3.0119617e-20, z: -0.0000054924926}
+      rotation: {x: -0.049259618, y: -0.7053889, z: -0.049259655, w: 0.70538884}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint13
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint2
+      position: {x: 0.00003088566, y: 0.0000017229669, z: 0.00007330959}
+      rotation: {x: -0.00047015422, y: -0.00016890907, z: 0.28216642, w: -0.9593653}
+      scale: {x: 1.0000002, y: 0.9999996, z: 0.99999994}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint14
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint13
+      position: {x: 0.000112913134, y: 0.00006537586, z: 0.000000013473139}
+      rotation: {x: -0.9884072, y: -0.15182646, z: -0.00016186331, w: 0.00002580253}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint15
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint14
+      position: {x: 0.0002383728, y: -0.000053317755, z: 0.00000005206529}
+      rotation: {x: 0.5876107, y: 0.80914384, z: 0.000000006177288, w: 0.000000023402208}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000004}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint16
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint15
+      position: {x: 0.00003565739, y: 0.00002326979, z: 0.000008645471}
+      rotation: {x: -0.000009341586, y: -0.00047408591, z: 0.32046738, w: 0.9472595}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.99999994}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint17
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint16
+      position: {x: 0.00004477871, y: -0.00000035103963, z: 0.0000071643235}
+      rotation: {x: -0.04925956, y: -0.7053889, z: -0.04925955, w: 0.705389}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.99999994}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -948,13 +650,12 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 0.01
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 2faa610713d3b3c439473daa55e8c60a,
-    type: 3}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 03c6a9948fe823847b05fc32d15abbd5, type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
@@ -966,10 +667,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 154271
-  packageName: Human Basic Motions FREE
-  packageVersion: 2.4.1
-  assetPath: Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle02.fbx
-  uploadId: 825236

@@ -52,19 +52,66 @@ ModelImporter:
     removeConstantScaleCurves: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'NEW_CHIBI_RIGGING_REGERO2:joint2' has translation
+      animation that will be discarded.\n\t'NEW_CHIBI_RIGGING_REGERO2:joint2' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NEW_CHIBI_RIGGING_REGERO2:joint3'
+      has translation animation that will be discarded.\n\t'NEW_CHIBI_RIGGING_REGERO2:joint4'
+      has translation animation that will be discarded.\n\t'NEW_CHIBI_RIGGING_REGERO2:joint4'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NEW_CHIBI_RIGGING_REGERO2:HEAD'
+      has translation animation that will be discarded.\n\t'NEW_CHIBI_RIGGING_REGERO2:joint18'
+      has translation animation that will be discarded.\n\t'NEW_CHIBI_RIGGING_REGERO2:joint19'
+      has translation animation that will be discarded.\n\t'NEW_CHIBI_RIGGING_REGERO2:joint20'
+      has translation animation that will be discarded.\n\t'NEW_CHIBI_RIGGING_REGERO2:joint22'
+      has translation animation that will be discarded.\n\t'NEW_CHIBI_RIGGING_REGERO2:joint23'
+      has translation animation that will be discarded.\n\t'NEW_CHIBI_RIGGING_REGERO2:joint24'
+      has translation animation that will be discarded.\n\t'NEW_CHIBI_RIGGING_REGERO2:joint11'
+      has translation animation that will be discarded.\n\t'NEW_CHIBI_RIGGING_REGERO2:joint11'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'NEW_CHIBI_RIGGING_REGERO2:joint16'
+      has translation animation that will be discarded.\n\t'NEW_CHIBI_RIGGING_REGERO2:joint16'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: IDLE
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 1
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.96
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -117,8 +164,413 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
-    human: []
-    skeleton: []
+    human:
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint1
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint8
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint13
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint9
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint14
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint10
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint15
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint3
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint5
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:HEAD
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint18
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint22
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint19
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint23
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint20
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint24
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint21
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint25
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint12
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: NEW_CHIBI_RIGGING_REGERO2:joint17
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: AngieModel(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: polySurface97
+      parentName: AngieModel(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:globalCTRL
+      parentName: AngieModel(Clone)
+      position: {x: -0, y: 0.0049576834, z: 0.17454635}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 3.2686903, y: 3.2686903, z: 3.2686903}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve
+      parentName: NEW_CHIBI_RIGGING_REGERO2:globalCTRL
+      position: {x: -0, y: 0.35499206, z: -0.17937174}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve1
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve
+      position: {x: 9.860761e-33, y: 0.07165715, z: 0.14331435}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve4
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve1
+      position: {x: -3.9443043e-32, y: 0.0989552, z: 0.006824493}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve2
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve1
+      position: {x: -3.9443043e-32, y: 0.0989552, z: 0.006824493}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve3
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve2
+      position: {x: 2.9582282e-32, y: 0.07677554, z: 0.012795926}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve5
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve3
+      position: {x: -3.451266e-32, y: 0.10474204, z: 0.003024584}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve8
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve3
+      position: {x: -0.08690992, y: 0.009916781, z: -0.009955711}
+      rotation: {x: 0, y: 0, z: 0.60551006, w: 0.7958377}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve9
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve8
+      position: {x: -0.13565207, y: -0.0009811878, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve10
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve9
+      position: {x: -0.14373285, y: -0.0009811878, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve13
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve3
+      position: {x: 0.086899996, y: 0.009916781, z: -0.013005501}
+      rotation: {x: 0, y: -0, z: -0.5811788, w: 0.8137759}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve12
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve13
+      position: {x: 0.13768998, y: -0.0009811878, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve11
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve12
+      position: {x: 0.14083818, y: -0.0009811878, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve6
+      parentName: NEW_CHIBI_RIGGING_REGERO2:globalCTRL
+      position: {x: -0.070875876, y: 0.008172789, z: -0.012804844}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve17
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve6
+      position: {x: -0.002424119, y: 0.2571753, z: 0.12638707}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve14
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve6
+      position: {x: -0.012016533, y: 0.010361358, z: 0.012828441}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle1
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve6
+      position: {x: -0.0024336753, y: 0.014184146, z: -0.035174232}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.30593294, y: 0.30593294, z: 0.30593294}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve7
+      parentName: NEW_CHIBI_RIGGING_REGERO2:globalCTRL
+      position: {x: 0.074340574, y: 0.008172789, z: -0.012804844}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve16
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve7
+      position: {x: -0.0010350277, y: 0.25684464, z: 0.12638707}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:curve15
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve7
+      position: {x: 0.007575587, y: 0.010361358, z: 0.0072991992}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ikHandle2
+      parentName: NEW_CHIBI_RIGGING_REGERO2:curve7
+      position: {x: -0.0010309814, y: 0.0131334355, z: -0.035196915}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.30593294, y: 0.30593294, z: 0.30593294}
+    - name: NEW_CHIBI_RIGGING_REGERO2:rootGRP
+      parentName: AngieModel(Clone)
+      position: {x: -0, y: -0.011247449, z: 0.17454635}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 3.2686903, y: 3.2686903, z: 3.2686903}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint1
+      parentName: NEW_CHIBI_RIGGING_REGERO2:rootGRP
+      position: {x: -0, y: 0.35994974, z: -0.17937174}
+      rotation: {x: -0.16245988, y: 0.688191, z: -0.16245988, w: 0.688191}
+      scale: {x: 1.0000001, y: 1, z: 1.0000004}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint2
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint1
+      position: {x: -0.16023032, y: -4.4408918e-17, z: -7.115656e-17}
+      rotation: {x: 0.000000007450581, y: -0, z: -0.4961389, w: 0.8682432}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint3
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint2
+      position: {x: -0.099190205, y: -5.8286706e-17, z: -5.556988e-17}
+      rotation: {x: -0.00000005561825, y: 0.00000003728085, z: 0.048127465, w: 0.9988412}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint4
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint3
+      position: {x: -0.07783457, y: -4.4408918e-17, z: -4.4790513e-17}
+      rotation: {x: 0.9681953, y: -0.2501957, z: -0.000000003831913, w: -0.00000010595657}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint5
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint4
+      position: {x: -0.068540715, y: 0.017813059, z: 3.935033e-17}
+      rotation: {x: -0.000000046226834, y: 0.000000038357594, z: -0.15497917, w: 0.9879177}
+      scale: {x: 0.99999994, y: 0.99999976, z: 1}
+    - name: NEW_CHIBI_RIGGING_REGERO2:HEAD
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint5
+      position: {x: -0.03390504, y: 0.010133317, z: 2.3165387e-17}
+      rotation: {x: -0.99527407, y: 0.09710574, z: 0.000000050236586, w: 0.000000032078017}
+      scale: {x: 1, y: 1.0000001, z: 0.9999998}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint7
+      parentName: NEW_CHIBI_RIGGING_REGERO2:HEAD
+      position: {x: -0.10273437, y: 0.009731085, z: -6.170851e-17}
+      rotation: {x: 0.4570652, y: -0.5395288, z: 0.45706522, w: 0.53952897}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.9999998}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint18
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint4
+      position: {x: -0.012672947, y: -0.006070864, z: 0.086909905}
+      rotation: {x: -0.40556222, y: 0.5792404, z: 0.41047695, w: 0.5757678}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.99999976}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint19
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint18
+      position: {x: -0.1356555, y: 0.00017331247, z: -3.330669e-17}
+      rotation: {x: -0.00000008940697, y: 0.000000029802322, z: 0.00039586425, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint20
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint19
+      position: {x: -0.14373578, y: 0.00035586773, z: -1.11022296e-17}
+      rotation: {x: 0.0000000306985, y: -0.00000011622982, z: -0.03327601, w: 0.9994462}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999999}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint21
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint20
+      position: {x: -0.07714804, y: -1.2490009e-17, z: 0}
+      rotation: {x: -0.000000089707335, y: 0.00000008476021, z: 0.028627235, w: 0.99959016}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000001}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint22
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint4
+      position: {x: -0.013682809, y: -0.008948569, z: -0.08690279}
+      rotation: {x: 0.5792402, y: 0.4055622, z: -0.5757679, w: 0.41047707}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1.0000001}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint23
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint22
+      position: {x: 0.13768044, y: -0.0001907129, z: 0.000000001939682}
+      rotation: {x: -0.000000014901161, y: -0.000000014901161, z: 0.00039589405, w: 1}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000008}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint24
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint23
+      position: {x: 0.14081621, y: -0.0003288759, z: 0.0000000019837547}
+      rotation: {x: 0.00000008889125, y: -0.000000029349914, z: -0.033276014, w: 0.9994463}
+      scale: {x: 1, y: 0.99999994, z: 0.99999964}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint25
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint24
+      position: {x: 0.07714843, y: 0.00000027343643, z: -7.556185e-11}
+      rotation: {x: -0.00000003001604, y: 0.000000045855902, z: 0.028627148, w: 0.9995902}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint8
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint2
+      position: {x: 0.0308857, y: 0.0017230025, z: -0.073309556}
+      rotation: {x: 0.32848296, y: -0.94450974, z: -0.00046116987, w: -0.00013536066}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000005}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint9
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint8
+      position: {x: -0.09839362, y: -0.08571487, z: -0.000012045444}
+      rotation: {x: 0.90554184, y: 0.4242569, z: 0.00011458341, w: -0.000052724492}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint10
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint9
+      position: {x: -0.24010006, y: -0.03866215, z: -0.000038108155}
+      rotation: {x: -0.58761084, y: -0.8091438, z: 0.000000026426278, w: 0.000000040162377}
+      scale: {x: 1.0000004, y: 1, z: 1.0000005}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint11
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint10
+      position: {x: 0.04793631, y: 0.0046708076, z: 0.009539137}
+      rotation: {x: -0.018558234, y: 0.99982774, z: -0.00014013062, w: -0.00044426782}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint12
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint11
+      position: {x: -0.042277586, y: -3.0119618e-17, z: -0.005492493}
+      rotation: {x: -0.049259618, y: -0.7053889, z: -0.049259655, w: 0.70538884}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint13
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint2
+      position: {x: 0.030885665, y: 0.001722967, z: 0.07330959}
+      rotation: {x: -0.00047015422, y: -0.00016890907, z: 0.28216642, w: -0.9593653}
+      scale: {x: 1.0000002, y: 0.9999996, z: 0.99999994}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint14
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint13
+      position: {x: 0.11291314, y: 0.065375865, z: 0.00001347314}
+      rotation: {x: -0.9884072, y: -0.15182646, z: -0.00016186331, w: 0.00002580253}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint15
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint14
+      position: {x: 0.23837282, y: -0.05331776, z: 0.000052065294}
+      rotation: {x: 0.5876107, y: 0.80914384, z: 0.000000006177288, w: 0.000000023402208}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000004}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint16
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint15
+      position: {x: 0.035657395, y: 0.023269791, z: 0.008645472}
+      rotation: {x: -0.000009341586, y: -0.00047408591, z: 0.32046738, w: 0.9472595}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.99999994}
+    - name: NEW_CHIBI_RIGGING_REGERO2:joint17
+      parentName: NEW_CHIBI_RIGGING_REGERO2:joint16
+      position: {x: 0.044778712, y: -0.00035103966, z: 0.007164324}
+      rotation: {x: -0.04925956, y: -0.7053889, z: -0.04925955, w: 0.705389}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.99999994}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -129,13 +581,13 @@ ModelImporter:
     globalScale: 10
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
