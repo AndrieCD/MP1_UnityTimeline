@@ -3167,7 +3167,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 915154, y: NaN, z: 1.1573083e+27, w: 3971421.5}
+  m_BoundingSphereOverride: {x: 1.0829418e+24, y: 4.8418473e+30, z: 2.3750396e+20, w: 6.573344e+28}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -3857,6 +3857,7 @@ GameObject:
   m_Component:
   - component: {fileID: 202734513}
   - component: {fileID: 202734514}
+  - component: {fileID: 202734515}
   m_Layer: 0
   m_Name: SceneTime
   m_TagString: Untagged
@@ -3920,8 +3921,115 @@ PlayableDirector:
     value: {fileID: 2064545020}
   - key: {fileID: -2785200840988217133, guid: a69f0e6c4fa748d42b1a517878f7be0d, type: 2}
     value: {fileID: 321252766}
+  - key: {fileID: 1249134599270773396, guid: a69f0e6c4fa748d42b1a517878f7be0d, type: 2}
+    value: {fileID: 202734515}
+  - key: {fileID: 5158279439092846107, guid: a69f0e6c4fa748d42b1a517878f7be0d, type: 2}
+    value: {fileID: 202734515}
+  - key: {fileID: -4181327170456904767, guid: a69f0e6c4fa748d42b1a517878f7be0d, type: 2}
+    value: {fileID: 202734515}
+  - key: {fileID: 3220475903291625464, guid: a69f0e6c4fa748d42b1a517878f7be0d, type: 2}
+    value: {fileID: 202734515}
+  - key: {fileID: 6047802133395212897, guid: a69f0e6c4fa748d42b1a517878f7be0d, type: 2}
+    value: {fileID: 202734515}
   m_ExposedReferences:
     m_References: []
+--- !u!82 &202734515
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202734512}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &204588522
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4979,7 +5087,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0.33333334, y: 4.705658e-10, z: 7.02e-43, w: 4.705658e-10}
+  m_BoundingSphereOverride: {x: 2.0025e-41, y: 0, z: 0, w: 1e-45}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -8876,7 +8984,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 2.8530527e-22, y: 9.1846e-40, z: 3.7225e-41, w: 6.947197e+22}
+  m_BoundingSphereOverride: {x: 0, y: 6.5e-43, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -9994,7 +10102,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: NaN}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
